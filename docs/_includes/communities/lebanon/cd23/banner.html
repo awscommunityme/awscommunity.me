@@ -1,0 +1,99 @@
+<!-- banner start-->
+
+<script>
+function calculateTimeLeft() {
+  const targetDate = new Date('September 9, 2023');
+  const currentDate = new Date();
+  const timeDiff = targetDate.getTime() - currentDate.getTime();
+  const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+  return {
+    days,
+    hours,
+    minutes
+  };
+}
+
+function updateCounter() {
+  const remainingTime = calculateTimeLeft();
+  document.querySelector('.days').textContent = remainingTime.days;
+  document.querySelector('.hours').textContent = remainingTime.hours;
+  document.querySelector('.minutes').textContent = remainingTime.minutes;
+}
+
+setInterval(() => {
+}, 1000);
+setInterval(updateCounter, 1000);
+</script>
+
+<section class="banner-main">
+  <div class="carousel">
+    <div id="particles-js"></div>
+
+    <div class="main-banner-item">
+      <div class="container">
+        <div class="caption text-center">
+          <div class="countdown">
+            <div class="counter-item">
+              <i class="icon icon-ring-1Asset-1"></i>
+              <span class="days">0</span>
+              <div class="smalltext">Days</div>
+            </div>
+            <div class="counter-item">
+              <i class="icon icon-ring-4Asset-3"></i>
+              <span class="hours">0</span>
+              <div class="smalltext">Hours</div>
+            </div>
+            <div class="counter-item">
+              <i class="icon icon-ring-3Asset-2"></i>
+              <span class="minutes">0</span>
+              <div class="smalltext">Minutes</div>
+            </div>
+            <!-- <div class="counter-item">
+                <i class="icon icon-ring-4Asset-3"></i>
+                <span class="seconds">00</span>
+                <div class="smalltext">Seconds</div>
+              </div> -->
+          </div>
+
+          <h1 class="mt-4">AWS Community Day Lebanon</h1>
+
+          <h2>
+            The annual community-led conference about <span id="typed"></span>
+          </h2>
+
+          <ul class="info-list">
+            <li>
+              <span class="icon fa fa-calendar-check"></span>9th September 2023
+              Saturday
+            </li>
+            <li>
+              <span class="icon fa fa-map-marker-alt"></span> Beirut, Lebanon
+            </li>
+          </ul>
+
+          <div class="row">
+            <div class="col-sm">
+              <p class="mt-4">
+                <!-- <a class="btn btn-lg custom-btn" href="https://www.eventbrite.co.uk/e/aws-community-day-uae-2022-tickets-478679341797" target="_blank" role="button">Reserve your seat</a> -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="typed-strings">
+    <p>Serverless</p>
+    <p>Cloud Architecture</p>
+    <p>IoT</p>
+    <p>Machine Learning</p>
+    <p>Big Data</p>
+    <p>Microservices</p>
+    <p>DevOps</p>
+    <p>...</p>
+  </div>
+</section>
+<!-- banner end-->

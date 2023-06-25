@@ -1,0 +1,27 @@
+<section style="min-height: 60vh; padding: 5% 0%">
+  {% for group in site.data.usergroups %}
+  <div class="col-md-12">
+    <div class="schedule-tab">
+      <div class="tab-content">
+        <div class="tab-pane animated fadeInRight active w-75" id="tab_one">
+            <a href="http://localhost:4000/{{group.url}}">
+            <div class="schedule-listing-key">
+              <div class="schedule-slot-info">
+                  <img
+                    class="schedule-slot-speakers"
+                    src="{{group.logo}}"
+                    alt=""
+                  />
+                <div class="schedule-slot-info-content">
+                  <h4 class="schedule-slot-title">{{group.name}}</h4>
+                  <p class="schedule-slot-desc"></p>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</section>
