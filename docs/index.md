@@ -1,16 +1,11 @@
 ---
 layout: default
+title:  "AWS MENA"
+navigation: "AWS MENA"
 permalink: /
 ---
 
 
 {% include header.html %}
-{% include banner.html %}
-{% include about.html %}
-
-{% include schedule.html %}
-{% include sponsors.html %}
-{% include team.html %}
-{% include supporters.html %}
- {% include footer.html %}
-
+{% include usergroups.html %}
+{% include footer.html %}
