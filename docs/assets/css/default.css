@@ -619,6 +619,18 @@ img.communityday-sponsor-small {
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 
+
+.schedule-listing-23 {
+
+    height: 210px;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
 .schdule-col-title {
     font-weight: bold;
     color: #454545;
@@ -678,6 +690,21 @@ img.communityday-sponsor-small {
     font-weight: bold;
 }
 
+
+.schedule-slot-title-23 {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #e47911;
+    font-weight: bold;
+}
+
+.schedule-slot-title-23-sp {
+    margin: 5px 0;
+    font-size: 11px;
+    color: #e47911;
+    font-weight: bold;
+}
+
 .wrkshpCard{
     width: 21rem;
     margin-bottom: 2rem;
@@ -696,6 +723,12 @@ img.communityday-sponsor-small {
 .schedule-slot-desc {
     font-size: 15px;
 }
+
+.schedule-slot-desc-23 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
 .schedule-slot-timings {
     margin: 5px 0;
     font-size: 14px;
@@ -1604,6 +1637,30 @@ img.communityday-sponsor-small {
         width: 75%;
         display: inline-block;
     } */
+
+    .schedule-slot-title-23 {
+        margin: 5px 0;
+        font-size: 17px;
+        color: #e47911;
+        font-weight: bold;
+    }
+
+
+    .schedule-slot-title-23-sp {
+        margin: 5px 0;
+        font-size: 12px;
+        color: #e47911;
+        font-weight: bold;
+    }
+
+    .schedule-slot-desc-23 {
+        font-size: 16px;
+        /* line-height: 20px; */
+    }
+
+
+
+
 
     .schedule-slot-time-key {
         width: 35%;

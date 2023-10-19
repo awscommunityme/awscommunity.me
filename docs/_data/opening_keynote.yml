@@ -1,37 +1,37 @@
 - speaker: Registration Team
   language: English
-  title: Registration
-  time: 09:30 - 10:00 am
+  title: Registration and Networking
+  time: 09:00 - 10:00 am
   image: awsGrayLogo.jpg
   custom-css-class: bg
+# - speaker: Community Day Organising Team
+#   language: English
+#   title: Introduction
+#   time: 10:00 - 10:15 am
+#   image: awsGrayLogo.jpg
+#   custom-css-class: bg
 - speaker: Community Day Organising Team
   language: English
-  title: Introduction
-  time: 10:00 - 10:15 am
+  title: Keynote Session
+  time: 10:00 - 11:00 am
   image: awsGrayLogo.jpg
   custom-css-class: bg
-- speaker: Maria Encinar and Mohammed Fazalullah
-  language: English
-  title: Introduction & Keynote
-  time: 10:15 - 10:35 am
-  image: awsGrayLogo.jpg
-  custom-css-class: bg
-- speaker: Hameedullah Khan - SUDO Consultants
-  language: English
-  title: Sponsor Talk
-  time: 10:35 - 11:05 am
-  image: awsGrayLogo.jpg
-  custom-css-class: bg
-  linked-url: https://www.linkedin.com/in/hameedullahkhan/
-- speaker: Maria Encinar, Mohammed Fazalullah, Mark Birch
-  language: English
-  title: Panel Discussion
-  time: 11:05 - 11:35 am
-  image: awsGrayLogo.jpg
-  custom-css-class: bg
+# - speaker: Hameedullah Khan - SUDO Consultants
+#   language: English
+#   title: Sponsor Talk
+#   time: 10:35 - 11:05 am
+#   image: awsGrayLogo.jpg
+#   custom-css-class: bg
+#   linked-url: https://www.linkedin.com/in/hameedullahkhan/
+# - speaker: Maria Encinar, Mohammed Fazalullah, Mark Birch
+#   language: English
+#   title: Panel Discussion
+#   time: 11:05 - 11:35 am
+#   image: awsGrayLogo.jpg
+#   custom-css-class: bg
 - speaker:
   language: English
   title: Networking & Coffee Break
-  time: 11:35 - 12:00 pm
+  time: 11:00 - 11:15 am
   image: awsGrayLogo.jpg
   custom-css-class: bg
