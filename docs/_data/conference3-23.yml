@@ -1,0 +1,32 @@
+
+- speaker: Rewanth Tamanna
+  language: English
+  title: Securing EKS the AWS Way:IRSA & Secrets Manager
+  time: 11:15 AM - 12:00 PM
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/rewant_tamanna.png
+  linked-url: https://www.linkedin.com/in/rewanthtammana/
+  scheduled-on: first-half
+- speaker: Aram Bhusal
+  language: English
+  title: AWS ElasticCache Anti-patterns
+  time: 12:05 PM - 12:50 PM
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/aram_bhusal.png
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/arambhusal/
+  scheduled-on: first-half
+- speaker: Saad Zaman
+  language: English
+  title: Rapid scalability on Amazon Elastic Container Service (ECS) across both Fargate and EC2 instances
+  time: 2:00 PM - 2:45 PM
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/saad_zaman.png
+  linked-url: https://www.linkedin.com/in/zamansaad/
+  font-css-class: schedule-slot-title-23-sp
+  scheduled-on: second-half
+- speaker: Ahmed Ali
+  language: English
+  title: Taming the AWS Billing Beast:Cost Optimization Insights
+  time: 2:50 PM - 3:35 PM
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/ahmed_ali.png
+  linked-url: https://www.linkedin.com/in/ahmed-ali-abdelrehim/
+  scheduled-on: second-half
+

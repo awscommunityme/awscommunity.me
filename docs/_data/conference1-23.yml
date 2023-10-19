@@ -1,0 +1,30 @@
+
+- speaker: Dr.Shivagami Gugan
+  language: English
+  title: Generative AI on AWS 
+  time: 11:15 - 12:00 pm
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/dr_shivagami_gugan.png
+  linked-url: https://www.linkedin.com/in/dr-shivagami-gugan-3980181/
+  scheduled-on: first-half
+- speaker: Sabiha Ali
+  language: English
+  title: Exploring Data Analytics with Amazon QuickSight
+  time: 12:05 - 12:50 pm
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/sabiha_ali.png
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/sabiha-ashik/
+  scheduled-on: first-half
+- speaker: Saurabh Bhattacharya
+  language: English
+  title: Strategies to Prepare and Crack AWS Certifications
+  time: 2:00 - 2:45 pm 
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/saurabh_bhattacharya.png
+  linked-url: https://www.linkedin.com/in/antaragni/
+  scheduled-on: second-half
+- speaker: Vishal Alhat
+  language: English
+  title: Generative AI- A New Era of Business Opportunities and Threats
+  time: 2:50 PM - 3:35 PM
+  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/vishal_alahat.png
+  linked-url: https://www.linkedin.com/in/vishalalhat/
+  scheduled-on: second-half
