@@ -14,6 +14,8 @@ To preview the website locally:
 $ cd docs && bundle install
 ```
 
+*Note: this page has been last updated on March 30, 2024 where Ruby version 3.3.0 and Bundler 2.5.7 were used and the latest dependencies have been fetched using ```bundle update``` after cloning. The ```gem 'webrick'``` has been added to the **Gemfile** explicitly webrick is no longer supported by default with the current Ruby version. As a rule of thumb during installations, take into consideration the dependencies and package versions.*
+
 3. Run Jekyll using the following command :
 
 ```sh
