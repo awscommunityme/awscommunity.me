@@ -4,3 +4,6 @@
 - name: AWS UAE
   logo: content/img/aws-uae-community-day.png
   url: cdu-2023
+- name: AWS KSA
+  logo: content/img/aws-ksa-community-dark.png
+  url: cdk-2024
