@@ -1,0 +1,16 @@
+
+- speaker: TBA
+  language: TBA
+  title: TBA
+  image: awsGrayLogo.jpg
+  custom-css-class: bg
+  card-css-class: wrkshpCard
+  scheduled-on: first-half
+- speaker: TBA
+  language: TBA
+  title: TBA
+  time: TBA
+  image: awsGrayLogo.jpg
+  custom-css-class: bg
+  card-css-class: wrkshpCard
+  scheduled-on: second-half

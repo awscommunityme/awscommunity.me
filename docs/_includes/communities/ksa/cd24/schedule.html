@@ -58,7 +58,7 @@
         height="450"
         frameborder="0" style="border:0"
         referrerpolicy="no-referrer-when-downgrade"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt30Eg4bBCGsTatfn8GcvqnF7Il8IRHlo&q=place_id:ChIJezr4PEQBLz4RqZ31VS7ck68"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt30Eg4bBCGsTatfn8GcvqnF7Il8IRHlo&q=place_id:ChIJCRqyOVsdLz4RcVI3j2wFd0E"
         loading="lazy"
         allowfullscreen>
       </iframe>
@@ -70,13 +70,13 @@
         <h4 class="schdule-col-title">Agenda</h4>
       </div>
 
-      {% for talk in site.data.opening_keynote %}
+      {% for talk in site.data.conference-agenda-ksa-24 %}
       <div class="col-md-12">
         <div class="schedule-tab">
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
               <div class="schedule-listing-key {{talk.custom-css-class}}">
-                <span class="schedule-slot-time-key">{{talk.time}} GST</span>
+                <span class="schedule-slot-time-key">{{talk.time}} </span>
                 <div class="schedule-slot-info">
                   <a href="#">
                     <img
@@ -118,13 +118,13 @@
     <div class="row" id="schedule-day-1">
       <div class="col-md-8">
         <div class="schedule-tab">
-          <!-- <h4> Conference Room A </h4> -->
+          <!-- <h4> Conference Room</h4> -->
           <div class="text-center">
-            <h4 class="schdule-col-title">Conference Room A</h4>
+            <h4 class="schdule-col-title">Conference Room</h4>
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference1 %}
+              {% for talk in site.data.conference-ksa-24 %}
 
 
               {% if talk.scheduled-on == 'first-half' %} 
@@ -141,7 +141,7 @@
                   <div class="schedule-slot-info-content">
                     <!-- <h3 class="schedule-slot-speaker-name"> {{talk.time}} UTC </h3> -->
                     <!-- <h3 class="schedule-slot-speaker-name">{{talk.language}}</h3> -->
-                    <h4 class="schedule-slot-timings">{{talk.time}} GST</h4>
+                    <h4 class="schedule-slot-timings">{{talk.time}} </h4>
                     <h4 class="schedule-slot-title {{talk.font-css-class}}">
                       {{talk.title}}
                     </h4>
@@ -170,12 +170,12 @@
       <div class="col-md-4">
         <div class="schedule-tab">
           <div class="text-center">
-            <h4 class="schdule-col-title">Workshops</h4>
+            <h4 class="schdule-col-title">Workshops Room</h4>
           </div>
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.workshops %}
+              {% for talk in site.data.workshops-ksa-24 %}
               {% if talk.scheduled-on == 'first-half' %} 
               <div class="card {{talk.card-css-class}}">
                 <img
@@ -188,7 +188,7 @@
                   <p class="card-text">
                     {% if talk.speaker %} By {{talk.speaker}}
                     <br />
-                    {{talk.time}} GST {% endif %}
+                    {{talk.time}}  {% endif %}
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
@@ -213,7 +213,7 @@
     <div class="row" id="schedule-day-1">
       <div class="col-lg-12 text-center">
         <div class="schedule-listing-closing bg">
-          <h4>Lunch Break 1:30 - 2:30 PM GST</h4>
+          <h4>TBA</h4>
         </div>
       </div>
     </div>
@@ -224,11 +224,11 @@
         <div class="schedule-tab">
           <!-- <h4> Conference Room A </h4> -->
           <div class="text-center">
-            <h4 class="schdule-col-title">Conference Room A</h4>
+            <h4 class="schdule-col-title">Conference Room</h4>
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference1 %}
+              {% for talk in site.data.conference-ksa-24 %}
 
 
               {% if talk.scheduled-on == 'second-half' %} 
@@ -245,7 +245,7 @@
                   <div class="schedule-slot-info-content">
                     <!-- <h3 class="schedule-slot-speaker-name"> {{talk.time}} UTC </h3> -->
                     <!-- <h3 class="schedule-slot-speaker-name">{{talk.language}}</h3> -->
-                    <h4 class="schedule-slot-timings">{{talk.time}} GST</h4>
+                    <h4 class="schedule-slot-timings">{{talk.time}} </h4>
                     <h4 class="schedule-slot-title {{talk.font-css-class}}">
                       {{talk.title}}
                     </h4>
@@ -275,12 +275,12 @@
       <div class="col-md-4">
         <div class="schedule-tab">
           <div class="text-center">
-            <h4 class="schdule-col-title">Workshops</h4>
+            <h4 class="schdule-col-title">Workshops Room</h4>
           </div>
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.workshops %}
+              {% for talk in site.data.workshops-ksa-24 %}
               {% if talk.scheduled-on == 'second-half' %} 
               <div class="card {{talk.card-css-class}}">
                 <img
@@ -293,7 +293,7 @@
                   <p class="card-text">
                     {% if talk.speaker %} By {{talk.speaker}}
                     <br />
-                    {{talk.time}} GST {% endif %}
+                    {{talk.time}}  {% endif %}
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
@@ -312,7 +312,7 @@
     <div class="row" id="schedule-day-1">
       <div class="col-lg-12 text-center">
         <div class="schedule-listing-closing bg">
-          <h4>Final Talk and Thanking note 4:00 - 5:00 PM GST</h4>
+          <h4>TBA</h4>
         </div>
       </div>
     </div>
