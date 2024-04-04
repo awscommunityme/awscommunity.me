@@ -39,7 +39,7 @@
                 aria-selected="false"
               >
                 <h3>11th May</h3>
-                <span>Saturday</span>
+                <span class="event-day">Saturday</span>
               </a>
             </li>
           </ul>
@@ -52,9 +52,16 @@
 
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9474.883434987956!2d55.16456131702478!3d25.11466539434834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b1495a55be1%3A0x5b8e89f8023b5766!2sin5%20Tech!5e0!3m2!1sen!2sae!4v1669966619261!5m2!1sen!2sae" class="mapStyle" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      <iframe
+        width="650"
+        height="450"
+        frameborder="0" style="border:0"
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCt30Eg4bBCGsTatfn8GcvqnF7Il8IRHlo&q=place_id:ChIJezr4PEQBLz4RqZ31VS7ck68"
+        loading="lazy"
+        allowfullscreen>
+      </iframe>
       </div>
     </div>
 
@@ -109,7 +116,7 @@
     </div>
 
     <div class="row" id="schedule-day-1">
-      <div class="col-md-4">
+      <div class="col-md-8">
         <div class="schedule-tab">
           <!-- <h4> Conference Room A </h4> -->
           <div class="text-center">
@@ -121,9 +128,9 @@
 
 
               {% if talk.scheduled-on == 'first-half' %} 
-              <div class="schedule-listing {{talk.custom-css-class}}">
+              <div class="schedule-listing-full {{talk.custom-css-class}}">
                 <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
-                <div class="schedule-slot-info">
+                <div class="schedule-slot-info-full">
                   <a href="#">
                     <img
                       class="schedule-slot-speakers"
@@ -159,55 +166,6 @@
         <!-- Schedule tab end -->
       </div>
       <!-- Col end -->
-
-      <div class="col-md-4">
-        <div class="schedule-tab">
-          <div class="text-center">
-            <h4 class="schdule-col-title">Conference Room B</h4>
-          </div>
-
-          <div class="tab-content">
-            <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference2 %}
-
-                
-              {% if talk.scheduled-on == 'first-half' %} 
-              <div class="schedule-listing {{talk.custom-css-class}}">
-                <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
-                <div class="schedule-slot-info">
-                  <a href="#">
-                    <img
-                      class="schedule-slot-speakers"
-                      src="/content/img/speakers/{{talk.image}}"
-                      alt=""
-                    />
-                  </a>
-                  <div class="schedule-slot-info-content">
-                    <!-- <h3 class="schedule-slot-speaker-name"> {{talk.time}} UTC </h3> -->
-                    <!-- <h3 class="schedule-slot-speaker-name">{{talk.language}}</h3> -->
-                    <h4 class="schedule-slot-timings">{{talk.time}} GST</h4>
-                    <h4 class="schedule-slot-title {{talk.font-css-class}}">
-                      {{talk.title}}
-                    </h4>
-                    <p class="schedule-slot-desc">
-                      {% if talk.speaker %} By  <a href="{{talk.linked-url}}" target="_blank">{{talk.speaker}}</a>   {% endif %}
-                    </p>
-                  </div>
-                  <!--Info content end -->
-                </div>
-                <!-- Slot info end -->
-              </div>
-              {% endif %}
-
-              <!-- Slot listing 2 end -->
-              {% endfor %}
-            </div>
-            <!-- Tab pane 1 end -->
-          </div>
-          <!-- tab content -->
-        </div>
-        <!-- Schedule tab end -->
-      </div>
 
       <div class="col-md-4">
         <div class="schedule-tab">
@@ -262,7 +220,7 @@
 
 
     <div class="row" id="schedule-day-1">
-      <div class="col-md-4">
+      <div class="col-md-8">
         <div class="schedule-tab">
           <!-- <h4> Conference Room A </h4> -->
           <div class="text-center">
@@ -313,54 +271,6 @@
       </div>
       <!-- Col end -->
 
-      <div class="col-md-4">
-        <div class="schedule-tab">
-          <div class="text-center">
-            <h4 class="schdule-col-title">Conference Room B</h4>
-          </div>
-
-          <div class="tab-content">
-            <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference2 %}
-
-                
-              {% if talk.scheduled-on == 'second-half' %} 
-              <div class="schedule-listing {{talk.custom-css-class}}">
-                <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
-                <div class="schedule-slot-info">
-                  <a href="#">
-                    <img
-                      class="schedule-slot-speakers"
-                      src="/content/img/speakers/{{talk.image}}"
-                      alt=""
-                    />
-                  </a>
-                  <div class="schedule-slot-info-content">
-                    <!-- <h3 class="schedule-slot-speaker-name"> {{talk.time}} UTC </h3> -->
-                    <!-- <h3 class="schedule-slot-speaker-name">{{talk.language}}</h3> -->
-                    <h4 class="schedule-slot-timings">{{talk.time}} GST</h4>
-                    <h4 class="schedule-slot-title {{talk.font-css-class}}">
-                      {{talk.title}}
-                    </h4>
-                    <p class="schedule-slot-desc">
-                      {% if talk.speaker %} By  <a href="{{talk.linked-url}}" target="_blank">{{talk.speaker}}</a>   {% endif %}
-                    </p>
-                  </div>
-                  <!--Info content end -->
-                </div>
-                <!-- Slot info end -->
-              </div>
-              {% endif %}
-
-              <!-- Slot listing 2 end -->
-              {% endfor %}
-            </div>
-            <!-- Tab pane 1 end -->
-          </div>
-          <!-- tab content -->
-        </div>
-        <!-- Schedule tab end -->
-      </div>
 
       <div class="col-md-4">
         <div class="schedule-tab">

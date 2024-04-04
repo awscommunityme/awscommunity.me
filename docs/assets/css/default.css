@@ -22,9 +22,14 @@ html {
     text-decoration: none;
 }
 
+.event-day {
+    color: #e47911;
+    font-size: medium;
+  }
+
 .custom-btn:hover {
-    background-color: #ff6386;
-    border-color: #ff6386;
+    background-color: #402688;
+    border-color: #402688;
 }
 
 /* Navigation */
@@ -243,7 +248,7 @@ img.communityday-sponsor-small {
 }
 
 .countdown .counter-item:nth-of-type(4) i {
-    color: #ff6386;
+    color: #402688;
 }
 
 
@@ -563,10 +568,13 @@ img.communityday-sponsor-small {
 
 .schedule-tab,
 .schedule-content .container {
+    margin-top: 30px;
     max-width: 960px;
     margin: 0 auto;
 }
 .schedule-tab .nav-tabs {
+    display: flex;
+  justify-content: center;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -596,6 +604,15 @@ img.communityday-sponsor-small {
     margin-bottom: 40px;
     color: #ee163a;
     text-align: center;
+}
+
+.schedule-listing-full{
+    padding: 50px 80px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
 }
 
 .schedule-listing-closing {
@@ -632,6 +649,8 @@ img.communityday-sponsor-small {
 }
 
 .schdule-col-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: bold;
     color: #454545;
 }
@@ -659,6 +678,12 @@ img.communityday-sponsor-small {
     float: left;
     font-weight: 700;
 }
+
+.schedule-slot-info-full {
+    width: 100%;
+    display: inline-block;
+}
+
 .schedule-slot-info {
     width: 90%;
     display: inline-block;
@@ -752,7 +777,7 @@ img.communityday-sponsor-small {
 }
 
 .ts-speaker .speaker-img {
-    width: 255px;
+    width: 100%;
     position: relative;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -762,6 +787,7 @@ img.communityday-sponsor-small {
 }
 
 .ts-speaker .speaker-img img {
+    object-fit: cover;
     width: 100%;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
@@ -780,7 +806,7 @@ img.communityday-sponsor-small {
     width: 100%;
     height: 100%;
     content: '';
-    background: rgba(59, 29, 130, 0.5);
+    background: rgba(37, 47, 62, 0.3);
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
@@ -1277,7 +1303,7 @@ img.communityday-sponsor-small {
 }
 
 .color-4 {
-    background: #ff6386;
+    background: #402688;
 }
 
 .ts-facts .ts-facts-content {

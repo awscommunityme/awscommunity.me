@@ -23,8 +23,8 @@ html {
 }
 
 .custom-btn:hover {
-    background-color: #ff6386;
-    border-color: #ff6386;
+    background-color: #402688;
+    border-color: #402688;
 }
 
 /* Navigation */
@@ -228,7 +228,7 @@ img.communityday-sponsor-small {
 }
 
 .countdown .counter-item:nth-of-type(4) i {
-    color: #ff6386;
+    color: #402688;
 }
 
 
@@ -869,6 +869,7 @@ img.communityday-sponsor-small {
     position: relative;
     margin-bottom: 60px;
     text-align: center;
+    margin-top: 20px;
 }
 
 .section-title:after,
@@ -1156,7 +1157,7 @@ img.communityday-sponsor-small {
 }
 
 .color-4 {
-    background: #ff6386;
+    background: #402688;
 }
 
 .ts-facts .ts-facts-content {
@@ -1234,11 +1235,11 @@ img.communityday-sponsor-small {
 
 .main-banner-item {
     display: block;
-    margin-bottom: 15px;
     position: relative;
     width: 100%;
     overflow: hidden;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .info-list {
