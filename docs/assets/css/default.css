@@ -765,7 +765,7 @@ img.communityday-sponsor-small {
 ===========================*/
 .ts-speakers {
     position: relative;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     overflow: hidden;
     background-image: url("/content/img/speaker_bg.png");
 }
@@ -777,7 +777,8 @@ img.communityday-sponsor-small {
 }
 
 .ts-speaker .speaker-img {
-    width: 100%;
+    width: 300px;
+    height: 300px;
     position: relative;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -789,6 +790,7 @@ img.communityday-sponsor-small {
 .ts-speaker .speaker-img img {
     object-fit: cover;
     width: 100%;
+    height: 100%;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -819,7 +821,7 @@ img.communityday-sponsor-small {
 .ts-speaker .view-speaker {
     position: absolute;
     left: 0;
-    top: 70%;
+    top: 100%;
     right: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
