@@ -1,31 +1,35 @@
-- speaker: TBA
+- speaker: Ahmed Ibrahim
   language: English
-  title: TBA
+  title: Simplify access to your cloud applications leveraging AWS technologies   
   time: TBA
-  image: awsGrayLogo.jpg
+  image: Ahmed-Ibrahim.jpeg
+  position: CTO at SnapTec, ex-AWS
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/company/awsomemena
+  linked-url: https://www.linkedin.com/in/ahmedi1
 
-- speaker: TBA
+- speaker: Mohammed Albaharnah
   language: English
-  title: TBA
+  title: AWS Advanced Networking and Use Cases 
   time: TBA
-  image: awsGrayLogo.jpg
+  image: Mohammed-Albaharnah.jpeg
+  position: Associate Director, Customer Technology Advisor - Kyndryl
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/company/awsomemena
+  linked-url: https://twitter.com/mohd_albaharnah
 
-- speaker: TBA
+- speaker: Mohammed Fazalullah (Faz)
   language: English
-  title: TBA
+  title: Build and orchestrate serverless generative AI applications 
   time: TBA
-  image: awsGrayLogo.jpg
+  image: Mohammed-Fazalullah-(Faz).jpeg
+  position: Senior Developer Advocate at AWS for the MENA region
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/company/awsomemena
+  linked-url: https://www.linkedin.com/in/mohammedfazalullah/
 
-- speaker:
+- speaker: Ali El Kontar
   language: English
-  title: TBA
+  title: Nextgen Cloud Management leveraging Bedrock
   time: TBA
-  image: awsGrayLogo.jpg
+  image: Ali-El-Kontar.jpeg
+  position: CEO of Zero&One - AWS Premier Consulting Partner
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/company/awsomemena
+  linked-url: https://www.linkedin.com/in/akontar/
