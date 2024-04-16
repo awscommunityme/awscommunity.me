@@ -1,11 +1,13 @@
 
 - speaker: TBA
-  language: TBA
+  language: English
   title: TBA
   image: awsGrayLogo.jpg
   custom-css-class: bg
   card-css-class: wrkshpCard
   scheduled-on: first-half
+  linked-url: https://www.linkedin.com/in/
+
 - speaker: TBA
   language: TBA
   title: TBA
@@ -14,3 +16,4 @@
   custom-css-class: bg
   card-css-class: wrkshpCard
   scheduled-on: second-half
+  linked-url: https://www.linkedin.com/in/

@@ -39,7 +39,42 @@
   title: Migration to AWS 
   time: TBA
   image: Ali-Hamidaddin.jpeg
-  position: Solutions Architect AWS Saudi Arabia
+  position: Solutions Architect at AWS Saudi Arabia
   custom-css-class: bg
   linked-url: https://www.linkedin.com/in/ali-hamidaddin
 
+- speaker: Reef AlThunayan
+  language: English
+  title: Amazon Q - A Generative AI-Powered Assistant tailored for your work
+  time: TBA
+  image: aws.jpeg
+  position: Associate Solution Architect at AWS Saudi Arabia
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/reef-althunayan-7060321b4/
+
+- speaker: Gautham Nagaraj
+  language: English
+  title: Building Software with, and for the Cloud
+  time: TBA
+  image: Gautham-Nagaraj.jpeg
+  position: Sr. Solution Architect at GitLab
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/gauthambn/
+
+- speaker: Gunnar Grosch
+  language: English
+  title: Developer Mindset - Embracing GitOps for Network Security and Compliance 
+  time: TBA
+  image: Gunnar-Grosch.jpeg
+  position: Sr. Solution Architect at GitLab
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/gunnargrosch/
+
+- speaker: Mohamed Amr
+  language: English
+  title: Unleashing the Power of AWS - A Workshop on Bedrock Chatbot Assistant
+  time: TBA
+  image: Mohamed-Amr.jpeg
+  position: Machine Learning Engineer at Sanlam
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/mamryehia/

@@ -186,9 +186,16 @@
                 <div class="card-body">
                   <h5 class="card-title schedule-slot-title">{{talk.title}}</h5>
                   <p class="card-text">
-                    {% if talk.speaker %} By {{talk.speaker}}
-                    <br />
-                    {{talk.time}}  {% endif %}
+                    {% if talk.speaker %} 
+                    {% if talk.linked-url %} 
+                    By <a href="{{talk.linked-url}}" target="_blank">{{talk.speaker}}</a>
+                    <br>
+                    {{talk.position}}
+                    {% endif %}
+                    {% if talk.linked-url == undefined %} 
+                    By {{talk.speaker}}
+                    {% endif %}
+                    {% endif %}
                   </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
