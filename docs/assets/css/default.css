@@ -23,6 +23,7 @@ html {
     justify-self: center;
 }
 
+
 .centring{
     text-align: center;
     display: grid;
@@ -34,9 +35,13 @@ html {
     font-weight: 600;
   }
 
+
 .custom-btn:hover {
-    background-color: #232F3E;
-    border-color: #232F3E;
+    color: black;
+    background-color: #e47911;
+    border-color: #e47911;
+    transform: scale(1.1); 
+    transition: transform 0.4s ease-in-out;
 }
 
 /* Navigation */

@@ -1,5 +1,23 @@
 jQuery(function ($) {
 
+    /* ----------------------------------------------------------- */
+    /*  Change event day color upon hover
+    /* -----------------------------------------------------------*/
+    const button = document.getElementById("schedule-day-1-btn");
+    const eventDayElement = document.querySelector(".event-day");
+
+    function changeEventDayColor() {
+        eventDayElement.style.color = "#232F3E";
+    }
+
+    button.addEventListener("mouseover", changeEventDayColor);
+
+    // Optional: Change color back on mouseout
+    button.addEventListener("mouseout", () => {
+        eventDayElement.style.color = "#e47911";
+    });
+
+
     $("#schedule-day-1").show();
     $("#schedule-day-2").hide();
 
@@ -34,7 +52,7 @@ jQuery(function ($) {
     /**-------------------------------------------------
      * Canvas
      *----------------------------------------------------**/
-    particlesJS.load('particles-js', 'assets/particlesJsConfig.json', function() {});
+    particlesJS.load('particles-js', 'assets/particlesJsConfig.json', function () { });
 
     new Typed('#typed', {
         stringsElement: '#typed-strings',
@@ -49,12 +67,12 @@ jQuery(function ($) {
      * Event Schedule buttons
      *----------------------------------------------------**/
 
-    $("#schedule-day-1-btn").click(function() {
+    $("#schedule-day-1-btn").click(function () {
         $("#schedule-day-1").show();
         $("#schedule-day-2").hide();
     });
 
-    $("#schedule-day-2-btn").click(function() {
+    $("#schedule-day-2-btn").click(function () {
         $("#schedule-day-2").show();
         $("#schedule-day-1").hide();
     });
