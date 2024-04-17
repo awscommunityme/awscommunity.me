@@ -1,3 +1,12 @@
+- speaker: TBA
+  language: English
+  title: TBA
+  time: Key Note Speaker
+  image: awsGrayLogo.jpg
+  position: TBA
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/
+
 - speaker: Ahmed Ibrahim
   language: English
   title: Simplify access to your cloud applications leveraging AWS technologies   
@@ -87,3 +96,13 @@
   position: Senior Solution Architect at AWS Saudi Arabia
   custom-css-class: bg
   linked-url: https://www.linkedin.com/in/alhoshan
+
+
+- speaker: Osama Shamout
+  language: English
+  title: TBA
+  time: TBA
+  image: osama-speaker.jpg
+  position: Cloud Engineer at Digico Solutions
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/osama-shamout
