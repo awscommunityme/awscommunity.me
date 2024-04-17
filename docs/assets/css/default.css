@@ -1684,6 +1684,11 @@ img.communityday-sponsor-small {
     margin-bottom: 10px;
 }
 
+#venue-logo{
+    width: -webkit-fill-available;
+    height: fit-content;
+}
+
 .map-iframe {
     width: 600px;
     height: 450px;
@@ -1744,7 +1749,12 @@ Mobile friendly media
 
     .banner-main h2{
         font-size: 25px;
-    
+
+        
+    #venue-logo{
+        margin-top: 30px;
+    }
+        
     }
     .map-iframe {
         width: 350px;
