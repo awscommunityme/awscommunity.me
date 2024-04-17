@@ -1687,6 +1687,7 @@ img.communityday-sponsor-small {
 #venue-logo{
     width: -webkit-fill-available;
     height: fit-content;
+    margin-bottom: 50px;
 }
 
 .map-iframe {
@@ -1752,6 +1753,8 @@ Mobile friendly media
 
         
     #venue-logo{
+        width: -webkit-fill-available;
+        height: fit-content;
         margin-top: 30px;
     }
         
