@@ -47,7 +47,7 @@
   language: English
   title: Amazon Q - A Generative AI-Powered Assistant tailored for your work
   time: TBA
-  image: aws.jpeg
+  image: Reef-Al-Thunayan.jpeg
   position: Associate Solution Architect at AWS Saudi Arabia
   custom-css-class: bg
   linked-url: https://www.linkedin.com/in/reef-althunayan-7060321b4/
@@ -78,3 +78,12 @@
   position: Machine Learning Engineer at Sanlam
   custom-css-class: bg
   linked-url: https://www.linkedin.com/in/mamryehia/
+
+- speaker: Abdullah Al-Hoshan
+  language: English
+  title: The Software Development Process at Amazon
+  time: TBA
+  image: Abdullah-Al-Hoshan.jpeg
+  position: Senior Solution Architect at AWS Saudi Arabia
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/in/alhoshan
