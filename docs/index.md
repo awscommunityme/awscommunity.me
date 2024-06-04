@@ -6,6 +6,6 @@ permalink: /
 ---
 
 
-{% include header.html %}
-{% include usergroups.html %}
-{% include footer.html %}
+<!-- {% include header.html %} -->
+{% include uae24.html %}
+<!-- {% include footer.html %} -->

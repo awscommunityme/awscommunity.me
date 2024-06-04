@@ -1,28 +1,5 @@
 <script>
-  function calculateTimeLeft() {
-    const targetDate = new Date('October 19, 2024');
-    const currentDate = new Date();
-    const timeDiff = targetDate.getTime() - currentDate.getTime();
-    const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-    return {
-      days,
-      hours,
-      minutes
-    };
-  }
   
-  function updateCounter() {
-    const remainingTime = calculateTimeLeft();
-    document.querySelector('.days').textContent = remainingTime.days;
-    document.querySelector('.hours').textContent = remainingTime.hours;
-    document.querySelector('.minutes').textContent = remainingTime.minutes;
-  }
-  
-  setInterval(() => {
-  }, 1000);
-  setInterval(updateCounter, 1000);
   </script>
 
 <!-- banner start-->
@@ -62,7 +39,7 @@
             <h2>The annual community-led conference about <span id="typed"></span></h2>
 
             <ul class="info-list">
-              <li><span class="icon fa fa-calendar-check"></span>19th October 2024 Saturday</li>              
+              <li><span class="icon fa fa-calendar-check"></span>19th October 2024 Saturday</li>
               <li><span class="icon fa fa-map-marker-alt"></span> Dubai, United Arab Emirates </li>
             </ul>
 
@@ -73,7 +50,7 @@
                   <a class="btn btn-lg custom-btn" href="https://app.awsmena.community" target="_blank" role="button"> Reserve Your Seats </a>
                 </p>
               </div>
-              
+
             </div> -->
 
 

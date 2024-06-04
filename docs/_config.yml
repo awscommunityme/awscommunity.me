@@ -1,6 +1,6 @@
 title: AWS MENA Community
 highlighter: rouge
-url: https://awsmena.community
+url: https://awscommunity.me
 markdown: kramdown
 plugins:
     - jekyll-redirect-from
