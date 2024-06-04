@@ -1,5 +1,6 @@
 title: AWS MENA Community
 highlighter: rouge
+domain: awscommunity.me
 url: https://awscommunity.me
 markdown: kramdown
 plugins:
