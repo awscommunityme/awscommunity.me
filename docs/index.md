@@ -7,5 +7,5 @@ permalink: /
 
 
 <!-- {% include header.html %} -->
-{% include uae24.html %}
+{% include uae24_homepage.html %}
 <!-- {% include footer.html %} -->
