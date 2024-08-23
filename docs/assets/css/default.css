@@ -40,7 +40,7 @@ html {
     color: black;
     background-color: #e47911;
     border-color: #e47911;
-    transform: scale(1.1); 
+    transform: scale(1.1);
     transition: transform 0.4s ease-in-out;
 }
 
@@ -673,7 +673,7 @@ img.communityday-sponsor-small {
 .schedule-slot-time-key {
     width: 15%;
     float: left;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 
@@ -1145,7 +1145,7 @@ img.communityday-sponsor-small {
     max-width: 100%;
     position: relative;
     overflow: hidden;
-    
+
 }
 
 /* media query for intro-video */
@@ -1438,7 +1438,7 @@ img.communityday-sponsor-small {
     line-height: 26px;
 }
 
-.ts-supporters {
+.ts-communities {
     padding-top: 6rem;
     padding-bottom: 8rem;
     position: relative;
@@ -1446,7 +1446,7 @@ img.communityday-sponsor-small {
     background-image: url("/content/img/speaker_bg.png");
 }
 
-.ts-supporters .speaker-img {
+.ts-communities .speaker-img {
     border-radius: 10%;
     -webkit-border-radius: 10%;
     -ms-border-radius: 10%;
@@ -1642,23 +1642,23 @@ img.communityday-sponsor-small {
     color: #fff; }
 
 
-#supporters a {
+#communities a {
     color: #232f3e;
     font-size: 1.6rem;
     font-weight: 800;
     text-decoration: none;
 }
 
-#supporters a:hover {
+#communities a:hover {
     color: #e47911;
     text-decoration: none;
 }
 
-#supporters .container p {
+#communities .container p {
     color: #e47911;
 }
 
-.supporters-logo img{
+.communities-logo img{
     width: 100px;
     height: 100px;
 }
@@ -1668,14 +1668,14 @@ img.communityday-sponsor-small {
 }
 
 #team .team-member {
-    visibility: visible; 
-    animation-duration: 1.5s; 
+    visibility: visible;
+    animation-duration: 1.5s;
     animation-delay: 400ms;
 }
 
 
 .footer-pad {
-    padding-inline-start: 1px; 
+    padding-inline-start: 1px;
 }
 
 .mapStyle {
@@ -1730,34 +1730,34 @@ Mobile friendly media
         margin-bottom: 20px;
         margin-right: 0px;
     }
-    
+
     .schedule-slot-title{
         margin-top: 10px;
     }
     .info-list li{
         font-size: 15px;
-    
+
     }
 
     .info-list ul{
         margin: 0 auto;
-    
+
     }
 
     .banner-main h1{
         font-size: 30px;
-    
+
     }
 
     .banner-main h2{
         font-size: 25px;
 
-        
+
     #venue-logo{
         margin-top: 30px;
         margin-bottom: 0px !important;
     }
-        
+
     }
     .map-iframe {
         width: 325px;
@@ -1776,7 +1776,7 @@ Mobile friendly media
     .main-banner-item{
         padding-top: 2rem;
     }
-    
+
     .col-md-12{
         padding-left: 0px;
     }
@@ -1814,7 +1814,7 @@ Mobile friendly media
     .schedule-slot-time-key {
         width: 35%;
         float: left;
-        font-weight: 700;   
+        font-weight: 700;
     }
     .schedule-listing {
         height: auto !important;
@@ -1837,7 +1837,7 @@ Mobile friendly media
 
 
     .footer-pad {
-        padding-inline-start: 1px; 
+        padding-inline-start: 1px;
     }
 
     .footer-menu ul li a {
@@ -1875,5 +1875,5 @@ Mobile friendly media
         color: #fff;
         line-height: 35px;
     }
-    
+
 }
