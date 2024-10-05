@@ -1,0 +1,150 @@
+<!-- Sponsors start -->
+<section class="ts-speakers">
+    <style>
+        @media (min-width: 768px) {
+            .row.justify-content-center > div:first-child {
+                margin-right: 2rem;
+            }
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery-item {
+            position: relative;
+            height: 0;
+            padding-bottom: 100%; /* Creates a square aspect ratio */
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .gallery-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: opacity 0.5s ease;
+            background-color: white;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            background-color: white;
+            border-radius: 8px;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                <h2 class="section-title white">Community Day 2023</h2>
+                <div class="spacer-single"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                <div class="spacer-single"></div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item"><img src="content/img/partners/cloudnative_logo.png" alt="Cloud Native Riyadh"></div>
+            <div class="gallery-item"><img src="https://konfhub.com/logos/konfhub-logo-purple.svg" alt="KonfHub"></div>
+            <div class="gallery-item"><img src="content/img/partners/decoding_data_science.png" alt="Decoding Data Science"></div>
+            
+            <div class="gallery-item"><img src="content/img/partners/cloudnative_logo.png" alt="Cloud Native Riyadh"></div>
+            <div class="gallery-item"><img src="https://konfhub.com/logos/konfhub-logo-purple.svg" alt="KonfHub"></div>
+            <div class="gallery-item"><img src="content/img/partners/decoding_data_science.png" alt="Decoding Data Science"></div>
+
+            <div class="gallery-item"><img src="content/img/partners/cloudnative_logo.png" alt="Cloud Native Riyadh"></div>
+            <div class="gallery-item"><img src="https://konfhub.com/logos/konfhub-logo-purple.svg" alt="KonfHub"></div>
+            <div class="gallery-item"><img src="content/img/partners/decoding_data_science.png" alt="Decoding Data Science"></div>
+        </div>
+    </div>
+
+    <div class="lightbox" onclick="closeLightbox()">
+        <img src="" alt="Enlarged image">
+    </div>
+</section>
+<!-- Sponsors end -->
+
+<script>
+    const images = [
+        'content/img/partners/cloudnative_logo.png',
+        'https://konfhub.com/logos/konfhub-logo-purple.svg',
+        'content/img/partners/decoding_data_science.png',
+        // Add more partner logo URLs as needed
+    ];
+
+    const galleryItems = document.querySelectorAll('.gallery-item img');
+    const lightbox = document.querySelector('.lightbox');
+    const lightboxImg = lightbox.querySelector('img');
+
+    function changeImage(index) {
+        const newIndex = Math.floor(Math.random() * images.length);
+        const newImage = images[newIndex];
+        
+        const img = galleryItems[index];
+        img.style.opacity = 0;
+        
+        setTimeout(() => {
+            img.src = newImage;
+            img.classList.add('fade-in');
+            img.style.opacity = 1;
+        }, 500);
+
+        setTimeout(() => {
+            img.classList.remove('fade-in');
+        }, 1000);
+    }
+
+    function startImageRotation() {
+        setInterval(() => {
+            const randomIndex = Math.floor(Math.random() * galleryItems.length);
+            changeImage(randomIndex);
+        }, 3000);
+    }
+
+    function openLightbox(src) {
+        lightboxImg.src = src;
+        lightbox.style.display = 'flex';
+    }
+
+    function closeLightbox() {
+        lightbox.style.display = 'none';
+    }
+
+    galleryItems.forEach(img => {
+        img.addEventListener('click', () => openLightbox(img.src));
+    });
+
+    startImageRotation();
+</script>
