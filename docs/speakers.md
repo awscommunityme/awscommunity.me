@@ -5,4 +5,4 @@ navigation: "speakers"
 permalink: /speakers
 ---
 
-{% include allSpeakers.html %}
+{% include /communities/uae/cd24/speakers24.html %}
