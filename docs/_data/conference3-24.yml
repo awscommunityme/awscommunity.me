@@ -13,6 +13,7 @@
   image: walid_shaari.jpg
   linked-url: https://www.linkedin.com/in/walidshaari/
   scheduled-on: second-half
+  type: lightening
 - speaker:  Felipe Costa
   language: English
   title: Automate AWS Secret Rotation
@@ -20,6 +21,7 @@
   image: felipe_costa.jpg
   linked-url: https://www.linkedin.com/in/felipe-dacosta/
   scheduled-on: second-half
+  type: lightening
 - speaker:  Gursimar Singh
   language: English
   title: Automating HAProxy using Ansible over AWS
@@ -27,3 +29,4 @@
   image: gursimar_singh.jpg
   linked-url: https://www.linkedin.com/in/gursimarsm/
   scheduled-on: second-half
+  type: lightening
