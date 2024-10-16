@@ -2,54 +2,54 @@
   language: English
   title: Registration and Welcome Coffee
   time: 09:00 - 9:40 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
 # - speaker: Community Day Organising Team
 #   language: English
 #   title: Introduction
 #   time: 10:00 - 10:15 am
-#   image: awsGrayLogo.jpg
+#  image: AWSNEW.png
 #   custom-css-class: bg
 - speaker:  UG Leaders
   language: English
   title: Keynote Session
   time: 9:45 - 10:00 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
 - speaker: Community Day Organising Team
   language: English
   title: Keynote Session
   time: 10:00 - 10:30 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
 - speaker: Sponsor
   language: English
   title: Platinum Sponsor Talk
   time: 10:30 - 10:50 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
 - speaker: Sponsor
   language: English
   title: Silver Sponsor Talk
   time: 10:50 - 11:00 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
 # - speaker: Hameedullah Khan - SUDO Consultants
 #   language: English
 #   title: Sponsor Talk
 #   time: 10:35 - 11:05 am
-#   image: awsGrayLogo.jpg
+#  image: AWSNEW.png
 #   custom-css-class: bg
 #   linked-url: https://www.linkedin.com/in/hameedullahkhan/
 # - speaker: Maria Encinar, Mohammed Fazalullah, Mark Birch
 #   language: English
 #   title: Panel Discussion
 #   time: 11:05 - 11:35 am
-#   image: awsGrayLogo.jpg
+#  image: AWSNEW.png
 #   custom-css-class: bg
 - speaker:
   language: English
   title: Networking & Coffee Break
   time: 11:00 - 11:15 am
-  image: awsGrayLogo.jpg
+  image: AWSNEW.png
   custom-css-class: bg
