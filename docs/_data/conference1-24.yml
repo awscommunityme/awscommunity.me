@@ -2,14 +2,14 @@
 - speaker: Awedis Keofteian
   language: English
   title: Processing Millions of Logs in Minutes- Anghami's AWS EMR Solution
-  time: 11:15 - 12:00 pm
+  time: 11:15 PM - 12:00 PM
   image: awedis_keofteian.jpg
   linked-url: https://www.linkedin.com/in/awedis/
   scheduled-on: first-half
 - speaker:  Mohamad Kalaaji
   language: English
   title: Deploying multi tenant SaaS apps on AWS
-  time: 12:00 - 12:45 pm
+  time: 12:00 PM - 12:45 PM
   image: mohamad_kalaaji.jpg
   custom-css-class: bg
   linked-url: https://www.linkedin.com/in/kalaaji/
@@ -17,21 +17,21 @@
 - speaker: Mahmoud Khatib
   language: English
   title: Simplifying Media Exchange with AWS/ ASBU Cloud Project
-  time: 1:45 - 2:30 pm 
+  time: 1:45 PM - 2:30 PM 
   image: mahmoud_khatib.jpg
   linked-url: https://www.linkedin.com/in/mahmoud-khatib-45900052/
   scheduled-on: second-half
 - speaker:  Mahmoud Abdelrahman
   language: English
   title: Cross-Region CI/CD - Deploying Beyond The Sea
-  time: 2:30 PM - 3:15 PMa
+  time: 2:30 PM - 3:15 PM
   image: mahmoud_abdelrahman.jpg
   linked-url: https://www.linkedin.com/in/vishalalhat/
   scheduled-on: second-half
 - speaker:  Rahul Raj
   language: English
   title: Unlocking Efficient Storage Management with Rook Ceph in AWS EKS
-  time: 2:30 PM - 3:15 PM
+  time: 3:30 PM - 4:15 PM
   image: rahulraj.jpg
   linked-url: https://www.linkedin.com/in/rahulrajvv/
   scheduled-on: second-half

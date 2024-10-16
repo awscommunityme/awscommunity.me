@@ -123,59 +123,135 @@
     
    
     
-   
+.speaker-card {
+  height: 280px; /* Fixed height for uniformity */
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin: 15px 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.speaker-header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-bottom: 1px solid #eee;
+}
+
+.speaker-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.speaker-info {
+  margin-left: 15px;
+  flex-grow: 1;
+}
+
+.speaker-info h2 {
+  font-size: 1rem;
+  margin: 0;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.speaker-content {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.speaker-title {
+  font-size: 0.95rem;
+  color: #4a5568;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.speaker-time {
+  font-size: 0.85rem;
+  color: #718096;
+  margin: 0;
+}
+
+.speaker-link {
+  display: inline-block;
+  color: #3182ce;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  transition: color 0.2s ease;
+}
+
+.speaker-link:hover {
+  color: #2c5282;
+  text-decoration: underline;
+}
+
+/* Schedule column styles */
+.schedule-tab {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 15px;
+  height: 100%;
+}
+
+.schdule-col-title {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e2e8f0;
+  text-align: center;
+}
+
+/* Optional: Add a subtle hover effect for the entire column */
+.schedule-tab:hover .speaker-card {
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .speaker-card {
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    overflow: hidden;
-    max-width: 300px;
-    margin: 20px auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: Arial, sans-serif;
+    height: auto;
+    min-height: 250px;
   }
+  
   .speaker-header {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    background-color: #f5f5f5;
+    padding: 10px;
   }
+  
   .speaker-avatar {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 16px;
+    width: 50px;
+    height: 50px;
   }
+  
   .speaker-info h2 {
-    margin: 0;
-    font-size: 18px;
+    font-size: 0.9rem;
   }
-  .speaker-info p {
-    margin: 4px 0 0;
-    font-size: 14px;
-    color: #666;
-  }
-  .speaker-content {
-    padding: 16px;
-  }
+  
   .speaker-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 8px;
+    font-size: 0.9rem;
   }
-  .speaker-time {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 16px;
-  }
-  .speaker-link {
-    display: inline-block;
-    color: #007bff;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  .speaker-link:hover {
-    text-decoration: underline;
-  }
+}
 
   .agenda-item {
             display: flex;
@@ -321,7 +397,7 @@
   <div class="auditorium-container">
     <div class="auditorium-header">Auditorium</div>
     <div class="auditorium-cards">
-      {% for talk in site.data.auditorium-23 %}
+      {% for talk in site.data.auditorium-24 %}
       {% if talk.scheduled-on == 'first-half' %}
       <div class="horizontal-card">
         <div class="speaker-header">
@@ -350,7 +426,7 @@
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference1-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference1-24 %} {% if talk.scheduled-on
               == 'first-half' %}
               <!-- <div class="schedule-listing-23  {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -400,7 +476,7 @@
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference2-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference2-24 %} {% if talk.scheduled-on
               == 'first-half' %}
               <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -449,7 +525,7 @@
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference3-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference3-24 %} {% if talk.scheduled-on
               == 'first-half' %}
               <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -498,7 +574,7 @@
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.workshops-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.workshops-24 %} {% if talk.scheduled-on
               == 'first-half' %}
               <div class="card {{talk.card-css-class}}">
                 <img
@@ -539,7 +615,7 @@
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference1-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference1-24 %} {% if talk.scheduled-on
               == 'second-half' %}
               <!-- <div class="schedule-listing-23  {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -589,7 +665,7 @@
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference2-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference2-24 %} {% if talk.scheduled-on
               == 'second-half' %}
               <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -638,7 +714,7 @@
           </div>
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.conference3-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.conference3-24 %} {% if talk.scheduled-on
               == 'second-half' %}
               <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
@@ -687,7 +763,7 @@
 
           <div class="tab-content">
             <div class="tab-pane animated fadeInRight active" id="tab_one">
-              {% for talk in site.data.workshops-23 %} {% if talk.scheduled-on
+              {% for talk in site.data.workshops-24 %} {% if talk.scheduled-on
               == 'second-half' %}
               <div class="card {{talk.card-css-class}}">
                 <img
