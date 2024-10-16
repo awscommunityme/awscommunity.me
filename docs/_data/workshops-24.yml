@@ -2,14 +2,14 @@
   language: English
   title: AWS Gameday Workshop
   time: 11:15 AM - 12:50 PM
-  image: awsGrayLogo.jpg
+  image: AWS_350.jpeg
   card-css-class: wrkshpCard
   scheduled-on: first-half
 - speaker: TBD
   language: English
   title: Afternoon Workshop
   time: 2:00 PM - 3:35 PM
-  image: awsGrayLogo.jpg
+  image: AWS_350.jpeg
   custom-css-class: bg
   card-css-class: wrkshpCard
   scheduled-on: second-half
