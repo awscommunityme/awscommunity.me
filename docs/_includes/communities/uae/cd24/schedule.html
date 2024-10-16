@@ -1,4 +1,229 @@
 <!-- Schedule start -->
+<style>
+  .track-column {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    
+    .track-header {
+      background: #232f3e;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    * Horizontal cards specifically for Auditorium */
+    .auditorium-container {
+      grid-column: 1 / -1;  /* Make it span full width */
+      margin: 20px 0;
+    }
+    
+    .auditorium-header {
+      background: #232f3e;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 8px 8px 0 0;
+    }
+    
+    .auditorium-cards {
+      display: flex;
+      overflow-x: auto;
+      padding: 20px;
+      gap: 20px;
+      background: white;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .horizontal-card {
+  max-width: 300px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  background: white;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+.horizontal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  border-color: #2563eb;
+}
+
+/* Subtle gradient background on hover */
+.horizontal-card:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+
+.horizontal-card:hover:before {
+  opacity: 1;
+}
+
+/* Add a subtle shine effect */
+.horizontal-card:after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255,255,255,0.1) 50%,
+    transparent 100%
+  );
+  transform: rotate(45deg);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.horizontal-card:hover:after {
+  opacity: 1;
+  transform: rotate(45deg) translate(50%, 50%);
+}
+
+/* Ensure content stays above the effects */
+.horizontal-card > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: Add a smooth pulse animation for new cards */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.horizontal-card.new {
+  animation: pulse 2s infinite;
+}
+    
+    
+   
+    
+   
+    
+   
+  .speaker-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    max-width: 300px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  .speaker-header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #f5f5f5;
+  }
+  .speaker-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  .speaker-info h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  .speaker-info p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #666;
+  }
+  .speaker-content {
+    padding: 16px;
+  }
+  .speaker-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 8px;
+  }
+  .speaker-time {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+  .speaker-link {
+    display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  .speaker-link:hover {
+    text-decoration: underline;
+  }
+
+  .agenda-item {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .agenda-time {
+            flex: 0 0 150px;
+            font-size: 16px;
+            color: #666;
+            font-weight: bold;
+        }
+        .agenda-image {
+            flex: 0 0 80px;
+            margin-right: 20px;
+        }
+        .agenda-image img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+        }
+        .agenda-content {
+            flex: 1;
+        }
+        .agenda-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ff9900;
+            margin: 0 0 5px 0;
+        }
+        .agenda-presenter {
+            font-size: 14px;
+            color: #666;
+            margin: 0;
+        }
+        .agenda-presenter a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .agenda-presenter a:hover {
+            text-decoration: underline;
+        }
+</style>
 
 <section id="schedule" class="ts-schedule">
   <div class="container">
@@ -32,7 +257,7 @@
               <a
                 class=""
                 id="schedule-day-1-btn"
-                title="10th December"
+                title="19th October"
                 aria-selected="false"
               >
                 <h3>19th October</h3>
@@ -57,6 +282,448 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+      </div>
+    </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-lg-12 text-center">
+        <h4 class="schdule-col-title">Agenda</h4>
+      </div>
+
+      {% for talk in site.data.opening_keynote %}
+      <div class="col-md-12">
+        <div class="agenda-item">
+          <div class="agenda-time">{{talk.time}} GST</div>
+          <div class="agenda-image">
+              <img src="/content/img/speakers/{{talk.image}}" alt="{{talk.title}}">
+          </div>
+          <div class="agenda-content">
+              <h3 class="agenda-title">{{talk.title}}</h3>
+              <p class="agenda-presenter">
+                  {% if talk.speaker %}
+                      By 
+                      {% if talk.linked-url %}
+                          <a href="{{talk.linked-url}}" target="_blank">{{talk.speaker}}</a>
+                      {% else %}
+                          {{talk.speaker}}
+                      {% endif %}
+                  {% endif %}
+              </p>
+          </div>
+      </div>
+        <!-- Schedule tab end -->
+      </div>
+      {% endfor %}
+    </div>
+
+
+    <!-- Auditorium Section -->
+  <div class="auditorium-container">
+    <div class="auditorium-header">Auditorium</div>
+    <div class="auditorium-cards">
+      {% for talk in site.data.auditorium-23 %}
+      {% if talk.scheduled-on == 'first-half' %}
+      <div class="horizontal-card">
+        <div class="speaker-header">
+          <img src="content/img/speakers24/{{talk.image}}" alt="{{ talk.speaker }}" class="speaker-avatar">
+          <div class="speaker-info">
+            <h2>{{ talk.speaker }}</h2>
+          </div>
+        </div>
+        <div class="speaker-content">
+          <h3 class="speaker-title">{{ talk.title }}</h3>
+          <p class="speaker-time">{{ talk.time }} GST</p>
+          <a href="{{ talk.linked-url }}" target="_blank" class="speaker-link">LinkedIn Profile</a>
+        </div>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <!-- <h4> Conference Room A </h4> -->
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 1 Room</h4>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference1-23 %} {% if talk.scheduled-on
+              == 'first-half' %}
+              <!-- <div class="schedule-listing-23  {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                    src="content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+      <!-- Col end -->
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 2 Room</h4>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference2-23 %} {% if talk.scheduled-on
+              == 'first-half' %}
+              <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                  src="/content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <!-- <h4> Conference Room A </h4> -->
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 3 Room</h4>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference3-23 %} {% if talk.scheduled-on
+              == 'first-half' %}
+              <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                  src="/content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <div class="text-center">
+            <h4 class="schdule-col-title">Workshops</h4>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.workshops-23 %} {% if talk.scheduled-on
+              == 'first-half' %}
+              <div class="card {{talk.card-css-class}}">
+                <img
+                  src="/content/img/speakers/{{talk.image}}"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title schedule-slot-title">{{talk.title}}</h5>
+                  <p class="card-text">
+                    {% if talk.speaker %} By {{talk.speaker}}
+                    <br />
+                    {{talk.time}} GST {% endif %}
+                  </p>
+                </div>
+              </div>
+              {% endif %} {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-lg-12 text-center">
+        <div class="schedule-listing-closing bg">
+          <h4>Lunch Break 12:45 - 1:40 PM GST</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <!-- <h4> Conference Room A </h4> -->
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 1 Room</h4>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference1-23 %} {% if talk.scheduled-on
+              == 'second-half' %}
+              <!-- <div class="schedule-listing-23  {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                  src="content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+      <!-- Col end -->
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 2 Room</h4>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference2-23 %} {% if talk.scheduled-on
+              == 'second-half' %}
+              <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                  src="content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <!-- <h4> Conference Room A </h4> -->
+          <div class="text-center">
+            <h4 class="schdule-col-title">Track 3 Room</h4>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.conference3-23 %} {% if talk.scheduled-on
+              == 'second-half' %}
+              <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
+              <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
+              <div class="speaker-card">
+                <div class="speaker-header">
+                  <img
+                  src="/content/img/speakers24/{{talk.image}}"
+                    alt="{{ talk.speaker }}"
+                    class="speaker-avatar"
+                  />
+                  <div class="speaker-info">
+                    <h2>{{ talk.speaker }}</h2>
+                    <!-- <p>{{ talk.language }}</p> -->
+                  </div>
+                </div>
+                <div class="speaker-content">
+                  <h3 class="speaker-title">{{ talk.title }}</h3>
+                  <p class="speaker-time">{{ talk.time }} GST</p>
+                  <a
+                    href="{{ talk.linked-url }}"
+                    target="_blank"
+                    class="speaker-link"
+                    >LinkedIn Profile</a
+                  >
+                </div>
+              </div>
+              <!-- Slot info end -->
+              <!-- </div> -->
+              {% endif %}
+
+              <!-- Slot listing 2 end -->
+              {% endfor %}
+            </div>
+            <!-- Tab pane 1 end -->
+          </div>
+          <!-- tab content -->
+        </div>
+        <!-- Schedule tab end -->
+      </div>
+
+      <div class="col-md-3">
+        <div class="schedule-tab">
+          <div class="text-center">
+            <h4 class="schdule-col-title">Workshops</h4>
+          </div>
+
+          <div class="tab-content">
+            <div class="tab-pane animated fadeInRight active" id="tab_one">
+              {% for talk in site.data.workshops-23 %} {% if talk.scheduled-on
+              == 'second-half' %}
+              <div class="card {{talk.card-css-class}}">
+                <img
+                  src="/content/img/speakers/{{talk.image}}"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title schedule-slot-title">{{talk.title}}</h5>
+                  <p class="card-text">
+                    {% if talk.speaker %} By {{talk.speaker}}
+                    <br />
+                    {{talk.time}} GST {% endif %}
+                  </p>
+                </div>
+              </div>
+              {% endif %} {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-lg-12 text-center">
+        <div class="schedule-listing-closing bg">
+          <h4> Closing Key Note 4:15 PM - 4:45 PM GST</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="schedule-day-1">
+      <div class="col-lg-12 text-center">
+        <div class="schedule-listing-closing bg">
+          <h4>Closing  by UG Leaders 4:45 PM - 5:00 PM GST</h4>
+        </div>
       </div>
     </div>
   </div>

@@ -1,32 +1,29 @@
 
-- speaker: Rewanth Tamanna
+- speaker: Mohammad Arshad
   language: English
-  title: Securing EKS the AWS Way:IRSA & Secrets Manager
-  time: 11:15 AM - 12:00 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/rewant_tamanna.png
-  linked-url: https://www.linkedin.com/in/rewanthtammana/
-  scheduled-on: first-half
-- speaker: Aram Bhusal
-  language: English
-  title: AWS ElasticCache Anti-patterns
-  time: 12:05 PM - 12:50 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/aram_bhusal.png
-  custom-css-class: bg
-  linked-url: https://www.linkedin.com/in/arambhusal/
-  scheduled-on: first-half
-- speaker: Saad Zaman
-  language: English
-  title: Rapid scalability on Amazon Elastic Container Service (ECS) across both Fargate and EC2 instances
-  time: 2:00 PM - 2:45 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/saad_zaman.png
-  linked-url: https://www.linkedin.com/in/zamansaad/
-  font-css-class: schedule-slot-title-23-sp
+  title: Future of Building Application using Generative AI and AWS Bedrock
+  time: 1:45 - 2:30 pm 
+  image: mohammad_arshad.jpeg
+  linked-url: https://www.linkedin.com/in/mdarshad/
   scheduled-on: second-half
-- speaker: Ahmed Ali
+- speaker:  Walid Shaari
   language: English
-  title: Taming the AWS Billing Beast:Cost Optimization Insights
-  time: 2:50 PM - 3:35 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/ahmed_ali.png
-  linked-url: https://www.linkedin.com/in/ahmed-ali-abdelrehim/
+  title: Mind the Gap- Evolving Internal Developer Platforms IDP for Seamless Innovation
+  time: 2:30 PM - 2:45 PM
+  image: walid_shaari.jpg
+  linked-url: https://www.linkedin.com/in/walidshaari/
   scheduled-on: second-half
-
+- speaker:  Felipe Costa
+  language: English
+  title: Automate AWS Secret Rotation
+  time: 2:45 PM - 3:00 PM
+  image: felipe_costa.jpg
+  linked-url: https://www.linkedin.com/in/felipe-dacosta/
+  scheduled-on: second-half
+- speaker:  Gursimar Singh
+  language: English
+  title: Automating HAProxy using Ansible over AWS
+  time: 3:00 PM - 3:15 PM
+  image: gursimar_singh.jpg
+  linked-url: https://www.linkedin.com/in/gursimarsm/
+  scheduled-on: second-half

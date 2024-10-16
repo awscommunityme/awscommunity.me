@@ -1,31 +1,37 @@
 
-- speaker: Eissa Abou Sherif
+- speaker: Ahmed Ali
   language: English
-  title: AWS Networking Services overview
-  time: 11:15 AM - 12:00 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/eissa_ahmed.png
-  linked-url: https://www.linkedin.com/in/eabousherif/
+  title: Cloud Migration Strategies.What, When and How?
+  time: 11:15 - 12:00 pm
+  image:  ahmed_ali.jpg
+  linked-url: https://www.linkedin.com/in/ahmed-ali-abdelrehim/
   scheduled-on: first-half
-- speaker: Engin Diri
+- speaker:  Rahaf AlNajjar
   language: English
-  title: AWS Self-service infrastructure with Backstage and Pulumi
-  time: 12:05 PM - 12:50 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/engin_diri.png
+  title: RAG Evaluation
+  time: 12:00 - 12:45 pm
+  image: rahaf_alnajjar.jpg
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/in/engin-diri
+  linked-url: https://www.linkedin.com/in/rahaf-alnajjar/
   scheduled-on: first-half
-- speaker: Yazan Salti
+- speaker: Jones Zachariah Noel
   language: English
-  title: Deploying Charmed Spark on Amazon EKS
-  time: 2:00 PM - 2:45 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/yazan_salti.png
-  linked-url: https://www.linkedin.com/in/yazan-salti-175736150/
+  title: Architectural choice while building Serverless APIs
+  time: 1:45 - 2:30 pm 
+  image: jones.png
+  linked-url: https://www.linkedin.com/in/jones-zachariah-noel-n/
   scheduled-on: second-half
-- speaker: Jayesh Ahire
+- speaker:  Saurabh Bhattacharya
   language: English
-  title: ​Do the right thing, shift left!
-  time: 2:50 PM - 3:35 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/jayesh_ahire.png
-  linked-url: https://www.linkedin.com/in/jayesh-ahire/
+  title: Accelerate your career- Mastering English Vocabulary at lightening speed for interview, workplace and client success
+  time: 2:30 PM - 3:15 PM
+  image: saurabh_bhattacharya.jpeg
+  linked-url: https://www.linkedin.com/in/antaragni/
   scheduled-on: second-half
-
+- speaker:  Ahmed Hussein Bin Shehab
+  language: English
+  title: Deploy Generative AI Models on Amazon EKS
+  time: 2:30 PM - 3:15 PM
+  image: mahmoud_abd.jpeg
+  linked-url: https://www.linkedin.com/in/ahmedshihab2023/
+  scheduled-on: second-half

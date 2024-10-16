@@ -1,30 +1,37 @@
 
-- speaker: Dr.Shivagami Gugan
+- speaker: Awedis Keofteian
   language: English
-  title: Generative AI on AWS 
+  title: Processing Millions of Logs in Minutes- Anghami's AWS EMR Solution
   time: 11:15 - 12:00 pm
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/dr_shivagami_gugan.png
-  linked-url: https://www.linkedin.com/in/dr-shivagami-gugan-3980181/
+  image: awedis_keofteian.jpg
+  linked-url: https://www.linkedin.com/in/awedis/
   scheduled-on: first-half
-- speaker: Sabiha Ali
+- speaker:  Mohamad Kalaaji
   language: English
-  title: Exploring Data Analytics with Amazon QuickSight
-  time: 12:05 - 12:50 pm
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/sabiha_ali.png
+  title: Deploying multi tenant SaaS apps on AWS
+  time: 12:00 - 12:45 pm
+  image: mohamad_kalaaji.jpg
   custom-css-class: bg
-  linked-url: https://www.linkedin.com/in/sabiha-ashik/
+  linked-url: https://www.linkedin.com/in/kalaaji/
   scheduled-on: first-half
-- speaker: Saurabh Bhattacharya
+- speaker: Mahmoud Khatib
   language: English
-  title: Strategies to Prepare and Crack AWS Certifications
-  time: 2:00 - 2:45 pm 
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/saurabh_bhattacharya.png
-  linked-url: https://www.linkedin.com/in/antaragni/
+  title: Simplifying Media Exchange with AWS/ ASBU Cloud Project
+  time: 1:45 - 2:30 pm 
+  image: mahmoud_khatib.jpg
+  linked-url: https://www.linkedin.com/in/mahmoud-khatib-45900052/
   scheduled-on: second-half
-- speaker: Vishal Alhat
+- speaker:  Mahmoud Abdelrahman
   language: English
-  title: Generative AI- A New Era of Business Opportunities and Threats
-  time: 2:50 PM - 3:35 PM
-  image: https://cdu2023-speaker-images.s3.ap-south-1.amazonaws.com/vishal_alahat.png
+  title: Cross-Region CI/CD - Deploying Beyond The Sea
+  time: 2:30 PM - 3:15 PMa
+  image: mahmoud_abdelrahman.jpg
   linked-url: https://www.linkedin.com/in/vishalalhat/
+  scheduled-on: second-half
+- speaker:  Rahul Raj
+  language: English
+  title: Unlocking Efficient Storage Management with Rook Ceph in AWS EKS
+  time: 2:30 PM - 3:15 PM
+  image: rahulraj.jpg
+  linked-url: https://www.linkedin.com/in/rahulrajvv/
   scheduled-on: second-half

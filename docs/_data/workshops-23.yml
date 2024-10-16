@@ -1,13 +1,13 @@
-- speaker: Ashwin Murali
+- speaker: AWS Team
   language: English
-  title: A walkthrough of Serverless computing on AWS - ECS Fargate and AWS Lambdas
+  title: AWS Gameday Workshop
   time: 11:15 AM - 12:50 PM
   image: awsGrayLogo.jpg
   card-css-class: wrkshpCard
   scheduled-on: first-half
-- speaker: Arshad Kazmi
+- speaker: Afternoon Workshop
   language: English
-  title: Data Engineering / Analytics / GenAI workshop
+  title: TBD
   time: 2:00 PM - 3:35 PM
   image: awsGrayLogo.jpg
   custom-css-class: bg

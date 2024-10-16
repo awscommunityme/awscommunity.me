@@ -1,7 +1,7 @@
 - speaker: Registration Team
   language: English
-  title: Registration and Networking
-  time: 09:00 - 10:00 am
+  title: Registration and Welcome Coffee
+  time: 09:00 - 9:40 am
   image: awsGrayLogo.jpg
   custom-css-class: bg
 # - speaker: Community Day Organising Team
@@ -10,10 +10,28 @@
 #   time: 10:00 - 10:15 am
 #   image: awsGrayLogo.jpg
 #   custom-css-class: bg
+- speaker:  UG Leaders
+  language: English
+  title: Keynote Session
+  time: 9:45 - 10:00 am
+  image: awsGrayLogo.jpg
+  custom-css-class: bg
 - speaker: Community Day Organising Team
   language: English
   title: Keynote Session
-  time: 10:00 - 11:00 am
+  time: 10:00 - 10:30 am
+  image: awsGrayLogo.jpg
+  custom-css-class: bg
+- speaker: Sponsor
+  language: English
+  title: Platinum Sponsor Talk
+  time: 10:30 - 10:50 am
+  image: awsGrayLogo.jpg
+  custom-css-class: bg
+- speaker: Sponsor
+  language: English
+  title: Silver Sponsor Talk
+  time: 10:50 - 11:00 am
   image: awsGrayLogo.jpg
   custom-css-class: bg
 # - speaker: Hameedullah Khan - SUDO Consultants
