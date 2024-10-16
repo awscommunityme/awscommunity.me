@@ -2,14 +2,21 @@
 - speaker: Sudo Consultants
   language: English
   title: Platinum Sponsor Talk
-  time: 11:15 - 12:00 pm
+  time: 11:15 AM - 12:00 PM
+  image: sudo-logo.png
+  linked-url: https://www.linkedin.com/company/sudoconsultants/posts/?feedView=all
+  scheduled-on: first-half
+- speaker: Sabiha Ashik
+  language: English
+  title: Amazon Q with Amazon QuickSight
+  time: 12:00 PM - 12:45 PM
   image: sudo-logo.png
   linked-url: https://www.linkedin.com/company/sudoconsultants/posts/?feedView=all
   scheduled-on: first-half
 - speaker:  Sudo Consultants
   language: English
   title: Platinum Sponsor Talk
-  time: 1:45 - 2:35 pm
+  time: 1:45 PM - 2:30 PM
   image: sudo-logo.png
   custom-css-class: bg
   linked-url: https://www.linkedin.com/company/sudoconsultants/posts/?feedView=all
@@ -17,7 +24,7 @@
 - speaker: Dr. Shivagami Gugan
   language: English
   title: Demystifying Quantum Computing – Hype vs. Reality 
-  time: 2:30 - 3:15 pm 
+  time: 2:30 PM - 3:15 PM 
   image: shivagami_gugan.jpeg
   linked-url: https://www.linkedin.com/in/dr-shivagami-gugan-3980181/
   scheduled-on: first-half

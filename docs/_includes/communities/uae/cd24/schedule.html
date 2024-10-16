@@ -15,7 +15,7 @@
       font-weight: bold;
     }
 
-    * Horizontal cards specifically for Auditorium */
+
     .auditorium-container {
       grid-column: 1 / -1;  /* Make it span full width */
       margin: 20px 0;
@@ -299,6 +299,37 @@
         .agenda-presenter a:hover {
             text-decoration: underline;
         }
+
+        .speaker-card[data-type="lightening"] {
+  position: relative;
+  border-left: 4px solid #1c357c;
+  overflow: visible;
+}
+
+.speaker-card[data-type="lightening"]::before {
+  content: "⚡";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #1c357c;
+  color: #000;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(251, 191, 36, 0.3);
+  animation: pulse-lightning 2s infinite;
+  z-index: 1;
+}
+
+@keyframes pulse-lightning {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
 </style>
 
 <section id="schedule" class="ts-schedule">
@@ -718,7 +749,7 @@
               == 'second-half' %}
               <!-- <div class="schedule-listing-23 {{talk.custom-css-class}}"> -->
               <!-- <span class="schedule-slot-time">{{talk.time}} UTC</span> -->
-              <div class="speaker-card">
+              <div class="speaker-card" data-type="{{ talk.type }}">
                 <div class="speaker-header">
                   <img
                   src="/content/img/speakers24/{{talk.image}}"
