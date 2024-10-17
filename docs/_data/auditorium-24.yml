@@ -13,13 +13,12 @@
   image: sabiha_ashik.jpg
   linked-url: https://www.linkedin.com/in/sabiha-ashik/
   scheduled-on: first-half
-- speaker:  Sudo Consultants
+- speaker:  Mohamad Albaker Kawtharani
   language: English
-  title: Platinum Sponsor Talk
+  title: Elevating Chatbots with Agentic Workflows 
   time: 1:45 PM - 2:30 PM
-  image: sudo-logo.png
-  custom-css-class: bg
-  linked-url: https://www.linkedin.com/company/sudoconsultants/posts/?feedView=all
+  image: Albaker.jpeg
+  linked-url: https://www.linkedin.com/in/mohamad-albaker-kawtharani/
   scheduled-on: first-half
 - speaker: Dr. Shivagami Gugan
   language: English
@@ -28,10 +27,12 @@
   image: shivagami_gugan.jpeg
   linked-url: https://www.linkedin.com/in/dr-shivagami-gugan-3980181/
   scheduled-on: first-half
-- speaker:  Mohamad Albaker Kawtharani
+- speaker:  Sudo Consultants
   language: English
-  title: Elevating Chatbots with Agentic Workflows 
+  title: Platinum Sponsor Talk
   time: 3:30 PM - 4:15 PM
-  image: Albaker.jpeg
-  linked-url: https://www.linkedin.com/in/mohamad-albaker-kawtharani/
+  image: sudo-logo.png
+  custom-css-class: bg
+  linked-url: https://www.linkedin.com/company/sudoconsultants/posts/?feedView=all
   scheduled-on: first-half
+
