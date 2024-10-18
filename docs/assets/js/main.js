@@ -55,9 +55,9 @@ jQuery(function ($) {
         document.querySelector('.minutes').textContent = remainingTime.minutes;
     }
 
-    setInterval(() => {
-    }, 1000);
-    setInterval(updateCounter, 1000);
+    // setInterval(() => {
+    // }, 1000);
+    // setInterval(updateCounter, 1000);
 
     /**-------------------------------------------------
      *Fixed HEader
