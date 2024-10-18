@@ -22,11 +22,11 @@
   linked-url: https://www.linkedin.com/in/felipe-dacosta/
   scheduled-on: second-half
   type: lightening
-- speaker:  Gursimar Singh
-  language: English
-  title: Automating HAProxy using Ansible over AWS
-  time: 3:00 PM - 3:15 PM
-  image: gursimar_singh.jpg
-  linked-url: https://www.linkedin.com/in/gursimarsm/
-  scheduled-on: second-half
-  type: lightening
+# - speaker:  Gursimar Singh
+#   language: English
+#   title: Automating HAProxy using Ansible over AWS
+#   time: 3:00 PM - 3:15 PM
+#   image: gursimar_singh.jpg
+#   linked-url: https://www.linkedin.com/in/gursimarsm/
+#   scheduled-on: second-half
+#   type: lightening
