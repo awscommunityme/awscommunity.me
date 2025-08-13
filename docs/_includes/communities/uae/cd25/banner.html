@@ -60,6 +60,11 @@
 
             <h2>The annual community-led conference about <span id="typed"></span></h2>
 
+            <!-- Registration notice - beautifully placed -->
+            <div class="registration-notice mt-3 mb-4">
+              <p class="registration-text">Registration opening soon</p>
+            </div>
+
             <ul class="info-list">
               <li><span class="icon fa fa-calendar-check"></span>Saturday, 19th October 2025</li>
               <li><span class="icon fa fa-map-marker-alt"></span> Dubai, United Arab Emirates </li>
@@ -83,14 +88,11 @@
 
             </div>
 
-
-
           </div>
         </div>
       </div>
 
   </div>
-
 
   <div id="typed-strings">
     <p>Serverless</p>
@@ -102,6 +104,33 @@
     <p>DevOps</p>
     <p>...</p>
   </div>
+
+  <style>
+    .registration-notice {
+      position: relative;
+    }
+    
+    .registration-text {
+      font-size: 1.1em;
+      color: #ff6b35;
+      font-weight: 500;
+      margin: 0;
+      padding: 8px 16px;
+      background: rgba(255, 107, 53, 0.1);
+      border: 1px solid rgba(255, 107, 53, 0.3);
+      border-radius: 20px;
+      display: inline-block;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.02); }
+      100% { transform: scale(1); }
+    }
+  </style>
 
 </section>
 <!-- banner end-->
