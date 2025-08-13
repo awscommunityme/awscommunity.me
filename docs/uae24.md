@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Community Day 2024 UAE"
-navigation: "Community Day 2024 UAE"
+title:  "Community Day 2025 UAE"
+navigation: "Community Day 2025 UAE"
 permalink: /
 ---
 
-{% include uae24_homepage.html %}
+{% include uae25_homepage.html %}

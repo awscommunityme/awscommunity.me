@@ -35,7 +35,7 @@ jQuery(function ($) {
     //     });
     // }
     function calculateTimeLeft() {
-        const targetDate = new Date('October 19, 2024');
+        const targetDate = new Date('October 19, 2025');
         const currentDate = new Date();
         const timeDiff = targetDate.getTime() - currentDate.getTime();
         const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
