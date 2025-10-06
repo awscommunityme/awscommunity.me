@@ -1,0 +1,39 @@
+- speaker: Ahmed Ali, Digital Dubai
+  language: English
+  title: From Zero to GenAI Hero- Building Your First AI App on AWS
+  time: 11:15 AM - 11:55 AM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQGT7i2V396TZQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1722261221260?e=1762387200&v=beta&t=mr9Ps-XqL4AeC230R8bO9bPKGi-xaD6yevaYhiSwZIU
+  linked-url: https://www.linkedin.com/in/ahmed-ali-abdelrehim/
+  scheduled-on: first-half
+
+- speaker: Doula Isham Rashik Hasan, Future OS
+  language: English
+  title: MLOps- MLflow + DVC + AWS to ship a YouTube Sentiment Chrome Extension
+  time: 12:00 PM - 12:40 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQHEf5VJObcdGw/profile-displayphoto-shrink_400_400/B4DZXpIeX4HkAg-/0/1743373068189?e=1762387200&v=beta&t=of9oeoVe25oWR4QESAhtBRq8ZLzA0NZfEhVGEaRMICw
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Adnan Mansuri, First Abu Dhabi Bank (FAB)
+  language: English
+  title: Boosting Developer/DevOps Productivity with Amazon Q and Kiro IDE
+  time: 2:00 PM - 2:40 PM
+  image: https://media.licdn.com/dms/image/v2/C4D03AQGwQS7q0diMJQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1600937942360?e=1762387200&v=beta&t=_wrDZosNlHLuf7HOozkus-RHbsZ5h8WV2PqHiuqPjh0
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Basil Fateen, AWS
+  language: English
+  title: How to build AI Agents on AWS (from prototype to production)
+  time: 2:45 PM - 3:25 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQFV5voBDJ4joQ/profile-displayphoto-shrink_400_400/B4DZVWpAqRGkAg-/0/1740915346690?e=1762387200&v=beta&t=y6qjuZfBpqCK9HpArGyl9mGbAMRdzrSmmzVXq_kfVBE
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Saad Zaman, Fools LLC
+  language: English
+  title: Playbook for a Generative AI Application for Critical Applications
+  time: 3:45 PM - 4:15 PM
+  image: https://media.licdn.com/dms/image/v2/C4D03AQGO9U2bn36tdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517029613669?e=1762387200&v=beta&t=Ir9qXHoWp0NRwBcxZEKe48xyjcpssA5K0038lUm7pqg
+  linked-url: 
+  scheduled-on: second-half
