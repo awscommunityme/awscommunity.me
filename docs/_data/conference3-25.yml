@@ -1,0 +1,58 @@
+- speaker: Ahmed Hussein Bin Shehab, AWS UG Abu Dhabi Leader
+  language: English
+  title: AI-Driven Cloud Operations- Building an Intelligent Monitoring and Scaling Pipeline on AWS
+  time: 11:15 AM - 11:55 AM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQH8sNRZhi-0fg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728444471262?e=1762387200&v=beta&t=_OAKmeCXfZIX0eiBQsHwPy1cShYSn-01IQuU2CGeq94
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Asna Siji, Emirates Airlines
+  language: English
+  title: Building an Intelligent Visa Verification System - How Sagemaker and AWS Serverless can help
+  time: 12:00 PM - 12:40 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQERm8APM5awkQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664874654884?e=1762387200&v=beta&t=bihKSDS95AvJjC6wKu-0l793WW8_jxiYtpjYVX9r-ZM
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Anitha Senthilnathan, Savic Inc
+  language: English
+  title: AI Safety in the Age of Agentic Systems- Policies, Pitfalls, and Prevention
+  time: 2:00 PM - 2:40 PM
+  image: https://media.licdn.com/dms/image/v2/C4D03AQFRo_O-6KlVOQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1659776982394?e=1762387200&v=beta&t=_iFRtq5z6tVW50bHSl3L4djNuMsDjV2jPWeq9KrSvbA
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Swaleha Parvin, CodersHQ
+  language: English
+  title: Guarding Generative AI Strategies to Secure LLMs
+  time: 2:45 PM - 3:25 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQFopU_NrBJrXQ/profile-displayphoto-scale_400_400/B4DZexTyY2G8As-/0/1751026444532?e=1762387200&v=beta&t=oAJwuatOwq9VScUG9Tuay-noXJ0xyo75DY3NwoKQltM
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Logeswaran Vinayagam
+  language: English
+  title: LT1 - Supercharging AI Apps using AWS AgentCore- Features, Possibilities & Beyond
+  time: 3:45 PM - 4:15 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQGiV4t3QuHt7Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1733119115520?e=1762387200&v=beta&t=ctOdDY2JvUPHmdWbHy5pFURcfg6I0nJSEOmYRZIhOJg
+  linked-url: 
+  type: lightening
+  scheduled-on: second-half
+
+- speaker: Dr Samia Kouki
+  language: English
+  title: LT2 - Bringing cloud to the Classroom- Designing a hands-on AWS-powered courses
+  time: 3:45 PM - 4:15 PM
+  image: https://media.licdn.com/dms/image/v2/D4E03AQFVkoPpZ3Fngw/profile-displayphoto-scale_400_400/B4EZmFIF6OIIAg-/0/1758875121585?e=1762387200&v=beta&t=M7eS1Ow0-7qYasZcKNIEf7IPNHZicbkjKaHLmICG0iw
+  linked-url: 
+  type: lightening
+  scheduled-on: second-half
+
+- speaker: Kunal Das
+  language: English
+  title: LT3 - Spot instances in Production- The complexities behind 90% cost savings
+  time: 3:45 PM - 4:15 PM
+  image: kunal_das.jpg
+  linked-url: 
+  type: lightening
+  scheduled-on: second-half

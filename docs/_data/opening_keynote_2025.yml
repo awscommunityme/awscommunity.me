@@ -1,0 +1,41 @@
+- speaker: Registration Team
+  language: English
+  title: Registration and Welcome Coffee
+  time: 09:00 - 9:45 am
+  image: AWSNEW.png
+  custom-css-class: bg
+  
+- speaker: UG Leaders
+  language: English
+  title: Opening by UG leaders
+  time: 9:45 - 10:00 am
+  image: AWSNEW.png
+  custom-css-class: bg
+  
+- speaker: Community Day Organising Team
+  language: English
+  title: Keynote
+  time: 10:00 - 10:30 am
+  image: AWSNEW.png
+  custom-css-class: bg
+  
+- speaker: Sponsor
+  language: English
+  title: Platinum Sponsor Talk
+  time: 10:30 - 10:50 am
+  image: AWSNEW.png
+  custom-css-class: bg
+  
+- speaker: Sponsor
+  language: English
+  title: Gold Sponsor Talk
+  time: 10:50 - 11:00 am
+  image: AWSNEW.png
+  custom-css-class: bg
+
+- speaker:
+  language: English
+  title: Coffee Break
+  time: 11:00 - 11:15 am
+  image: AWSNEW.png
+  custom-css-class: bg

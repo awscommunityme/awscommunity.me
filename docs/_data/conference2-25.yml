@@ -1,0 +1,39 @@
+- speaker: Sourabh Bhattacharya, AWS
+  language: English
+  title: Cloud Journey
+  time: 11:15 AM - 11:55 AM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQE8Bj8r2VPRmA/profile-displayphoto-shrink_400_400/B4DZdx3YNJG8Ak-/0/1749962033039?e=1762387200&v=beta&t=d7hHB-gDhX_jDoxBxnZuWxy5vUO2_onSIH3kBf8jqGw
+  linked-url: https://www.linkedin.com/in/antaragni/
+  scheduled-on: first-half
+
+- speaker: Sabiha Ashik, Scale Capacity
+  language: English
+  title: Mindset of a Successful Solutions Architect
+  time: 12:00 PM - 12:40 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQHu5uu_AjlqVQ/profile-displayphoto-shrink_400_400/B4DZRgE_h8HIAg-/0/1736778709723?e=1762387200&v=beta&t=4CbbxPxUtvAW3EOxEJMB7klfvPLDbD3ZDBSOkjydlsg
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Abhishek Wagh, Quantiphi
+  language: English
+  title: Seamless Kubernetes Migration- Leveraging AWS Kubernetes Migration Factory (KMF)
+  time: 2:00 PM - 2:40 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQHQN2YPUkROFA/profile-displayphoto-shrink_400_400/B4DZSMbc1qHYAg-/0/1737522794442?e=1762387200&v=beta&t=AhFwZmU0f9dbehIbPYYAHAj_U0UuQBiTIN3hmkmpXPg
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Mohammad Jafar AlYasfo, First Screen
+  language: English
+  title: Build Scalable Microservices with AWS- A Real-World Blueprint
+  time: 2:45 PM - 3:25 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQEjN1LliCWcCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728501756548?e=1762387200&v=beta&t=QAlJsCbJPQeYNju8OTC-VBXhrEa2bboVbBEyABpYBOA
+  linked-url: 
+  scheduled-on: second-half
+
+- speaker: Mahmoud Khatib, Broadcast Solutions Group
+  language: English
+  title: Building Cloud-Based Production Asset Management (PAM) System on AWS
+  time: 3:45 PM - 4:15 PM
+  image: https://media.licdn.com/dms/image/v2/D4D03AQE0Xn_-TiADfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728596510246?e=1762387200&v=beta&t=H8fXMOF34XFJcAMuhoob2eE5TrMg7Ne9av9FOs6vu0s
+  linked-url: 
+  scheduled-on: second-half
