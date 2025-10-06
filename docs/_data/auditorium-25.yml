@@ -20,7 +20,7 @@
   time: 2:00 PM - 2:40 PM
   image: AWSNEW.png
   linked-url: 
-  scheduled-on: second-half
+  scheduled-on: first-half
 
 - speaker: Mohamad Kawtharani, Zero & One
   language: English
@@ -28,7 +28,7 @@
   time: 2:45 PM - 3:25 PM
   image: https://media.licdn.com/dms/image/v2/C4D03AQH8c9IWwsOb-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1637216705928?e=1762387200&v=beta&t=uAl9pojMQ-rgTcb6O4pcmCKeUEm8jdbyqpuisDr-Gho
   linked-url: 
-  scheduled-on: second-half
+  scheduled-on: first-half
 
 - speaker: Aman Ul Haq Siddiqui, SUDO Consultants
   language: English
@@ -36,4 +36,4 @@
   time: 3:45 PM - 4:15 PM
   image: https://media.licdn.com/dms/image/v2/D5603AQH_DLR573JWcQ/profile-displayphoto-scale_400_400/B56Zl1rJk3KEAg-/0/1758615872111?e=1762387200&v=beta&t=ApJekpsjbODrIsMQ5GenP4oPqpeOaZ6kjeacO9PLySg
   linked-url: 
-  scheduled-on: second-half
+  scheduled-on: first-half
