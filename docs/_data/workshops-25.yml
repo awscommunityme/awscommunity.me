@@ -1,4 +1,22 @@
-- speaker: Luv Sunela, recablr.ai
+- speaker: Mohammad Fazalullah
+  language: English
+  title: Your Tech Career in the age of AI and Cloud
+  time: 11:15 AM - 11:55 AM
+  image: luv_sunela.jpg
+  card-css-class: wrkshpCard
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Mohammad Fazalullah
+  language: English
+  title: Your Tech Career in the age of AI and Cloud
+  time: 12:00 PM - 12:40 PM
+  image: luv_sunela.jpg
+  card-css-class: wrkshpCard
+  linked-url: 
+  scheduled-on: first-half
+
+- speaker: Luv Sunela, recablr.ai 
   language: English
   title: Stop Burning GenAI Budget- The Evaluation Playbook
   time: 2:00 PM - 2:40 PM
@@ -8,7 +26,7 @@
 
 - speaker: Luv Sunela, recablr.ai
   language: English
-  title: Stop Burning GenAI Budget- The Evaluation Playbook (Repeat)
+  title: Stop Burning GenAI Budget- The Evaluation Playbook
   time: 2:45 PM - 3:25 PM
   image: luv_sunela.jpg
   card-css-class: wrkshpCard
