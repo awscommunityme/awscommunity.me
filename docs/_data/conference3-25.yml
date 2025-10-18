@@ -48,11 +48,10 @@
   type: lightening
   scheduled-on: second-half
 
-- speaker: Kunal Das
+- speaker: Syed Haider Ali, Aitropolis
   language: English
-  title: LT3 - Spot instances in Production- The complexities behind 90% cost savings
-  time: 3:45 PM - 4:15 PM
-  image: kunal_das.jpg
+  title: Selecting & Scaling winning AI initiatives
+  time: 3:45 PM - 4:25 PM
+  image: https://media.licdn.com/dms/image/v2/C4D03AQG2cOhhFOOOpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516307692285?e=1762387200&v=beta&t=TsrjoM0lyB1c7uhGwiWP8Rba8J2to2NxyDO1k3ipyIc
   linked-url: 
-  type: lightening
   scheduled-on: second-half

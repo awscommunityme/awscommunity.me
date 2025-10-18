@@ -607,18 +607,14 @@
   <div class="col-md-3">
     <div class="schedule-tab-wrk">
       <div class="text-center">
-        <h4 class="schdule-col-title">Workshops</h4>
+        <h4 class="schdule-col-title">Track 4</h4>
       </div>
       <div class="tab-content">
         <div class="tab-pane animated fadeInRight active" id="tab_one">
           {% for talk in site.data.workshops-25 %}
           {% if talk.scheduled-on == 'first-half' %}
           <div class="card {{talk.card-css-class}}">
-            {% if talk.image contains 'http://' or talk.image contains 'https://' %}
-              <!-- <img src="{{talk.image}}" class="card-img-top" alt="..." onerror="this.src='/favicon.ico'"> -->
-            {% else %}
-              <img src="/content/img/speakers/{{talk.image}}" class="card-img-top" alt="..." onerror="this.src='/favicon.ico'">
-            {% endif %}
+           
             <div class="card-body">
               <h5 class="card-title schedule-slot-title">{{talk.title}}</h5>
               <p class="card-text">
