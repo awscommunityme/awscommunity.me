@@ -1,11 +1,8 @@
 ---
 layout: default
-title:  "AWS MENA"
-navigation: "AWS MENA"
+title:  "Community Day 2026 UAE"
+navigation: "Community Day 2026 UAE"
 permalink: /
 ---
 
-
-<!-- {% include header.html %} -->
-{% include uae25_homepage.html %}
-<!-- {% include footer.html %} -->
+{% include uae26_homepage.html %}
