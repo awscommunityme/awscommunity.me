@@ -1,11 +1,11 @@
 ---
 layout: default
-title:  "AWS Community Day UAE 2024"
+title:  "AWS Community Day UAE 2026"
 navigation: "sponsors"
 permalink: /sponsors
 ---
 
-{% include /communities/uae/cd24/sponsorshipdeck.html %}
+{% include /communities/uae/cd26/sponsorshipdeck.html %}
 
 
 
