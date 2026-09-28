@@ -1,0 +1,44 @@
+- speaker: Ahmed Ali
+  title: The Real AI Bubble Is Inside Your Company
+  time: 11:30 AM - 12:15 PM
+  image:
+  linked-url:
+  scheduled-on: first-half
+
+- speaker: Ahmed Bin Shehab
+  title: "From Alerts to Action: Building an AI-Powered Cloud Operations Assistant on AWS"
+  time: 12:30 PM - 1:15 PM
+  image:
+  linked-url:
+  scheduled-on: first-half
+
+- speaker: Asna Siji
+  title: S3 Vectors and Annotations
+  time: 2:30 PM - 3:15 PM (Lightning Talk)
+  image:
+  linked-url:
+  type: lightening
+  scheduled-on: second-half
+
+- speaker: Isaias Thomas Biju
+  title: Cloud is Technical. Communities Make It Human.
+  time: 2:30 PM - 3:15 PM (Lightning Talk)
+  image:
+  linked-url:
+  type: lightening
+  scheduled-on: second-half
+
+- speaker: Mohamad Alghosh
+  title: "The Hybrid AWS Database Architecture: Balancing High-Speed Writes with Relational Integrity"
+  time: 2:30 PM - 3:15 PM (Lightning Talk)
+  image:
+  linked-url:
+  type: lightening
+  scheduled-on: second-half
+
+- speaker: Adnan Mansuri
+  title: Building and Deploying Intelligent Financial Agents with Amazon Bedrock Strands and AgentCore
+  time: 3:30 PM - 4:15 PM
+  image:
+  linked-url:
+  scheduled-on: second-half
