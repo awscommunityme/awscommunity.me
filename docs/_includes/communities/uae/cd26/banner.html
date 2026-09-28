@@ -1,89 +1,144 @@
-<script>
-  function calculateTimeLeft() {
-    const targetDate = new Date('October 3, 2026');
-    const currentDate = new Date();
-    const timeDiff = targetDate.getTime() - currentDate.getTime();
-    const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
-    return {
-      days,
-      hours,
-      minutes
-    };
-  }
-  
-  function updateCounter() {
-    const remainingTime = calculateTimeLeft();
-    document.querySelector('.days').textContent = remainingTime.days;
-    document.querySelector('.hours').textContent = remainingTime.hours;
-    document.querySelector('.minutes').textContent = remainingTime.minutes;
-  }
-  
-  setInterval(() => {
-  }, 1000);
-  setInterval(updateCounter, 1000);
-</script>
 <!-- banner start-->
-<section class="banner-main">
-  <div class="carousel">
-    <div id="particles-js"></div>
+<section class="aurora-hero">
+  <!-- Animated aurora background -->
+  <div class="aurora-bg" aria-hidden="true">
+    <div class="aurora-blade b1"></div>
+    <div class="aurora-blade b2"></div>
+    <div class="aurora-blade b3"></div>
+    <div class="aurora-blade b4"></div>
+    <svg class="aurora-grain" width="100%" height="100%">
+      <filter id="aurora-noise">
+        <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch" />
+        <feColorMatrix type="saturate" values="0" />
+      </filter>
+      <rect width="100%" height="100%" filter="url(#aurora-noise)" />
+    </svg>
+    <div class="aurora-vignette"></div>
+  </div>
 
-      <div class="main-banner-item">
-        <div class="container">
-          <div class="caption text-center">
+  <!-- Kept for main.js, which loads particles into this element -->
+  <div id="particles-js" style="display: none"></div>
 
-            <div class="countdown">
-              <div class="counter-item">
-                <i class="icon icon-ring-1Asset-1"></i>
-                <span class="days">00</span>
-                <div class="smalltext">Days</div>
-              </div>
-              <div class="counter-item">
-                <i class="icon icon-ring-4Asset-3"></i>
-                <span class="hours">00</span>
-                <div class="smalltext">Hours</div>
-              </div>
-              <div class="counter-item">
-                <i class="icon icon-ring-3Asset-2"></i>
-                <span class="minutes">00</span>
-                <div class="smalltext">Minutes</div>
-              </div>
-            </div>
+  <div class="aurora-content">
+    <div class="aurora-eyebrow">
+      <span class="dot"></span>
+      5th Edition &middot; Saturday, 3rd October 2026
+    </div>
 
-            <h1 class="mt-4">AWS Community Day UAE</h1>
+    <h1 class="aurora-title">
+      AWS Community Day<br />
+      <span class="aurora-accent">UAE</span> 2026
+    </h1>
 
-            <h2>The annual community-led conference about <span id="typed"></span></h2>
+    <p class="aurora-subtitle">
+      The annual community-led conference about <span id="typed"></span><br />
+      Talks, workshops and lightning sessions by builders, for builders.
+    </p>
 
-            <ul class="info-list">
-              <li><span class="icon fa fa-calendar-check"></span>Saturday, 3rd October 2026</li>
-              <li><span class="icon fa fa-map-marker-alt"></span>  One by Omniyat, Business Bay, Dubai </li>
-            </ul>
+    <div class="keycap-row">
+      <a class="keycap keycap-orange" href="https://www.meetup.com/aws-dubai/events/316207747/?slug=aws-dubai&eventId=316207747" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2"/><path d="M13 17v2"/><path d="M13 11v2"/></svg>
+        Register
+      </a>
+      <a class="keycap keycap-light" href="#schedule">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+        View the schedule
+      </a>
+    </div>
 
-            <div class="row">
-              <div class="col-sm">
-                <p class="mt-4">
-                  <a style="background-color: #e47911;border-color: #e47911;" class="btn btn-lg custom-btn" href="https://www.meetup.com/aws-dubai/events/316207747/?slug=aws-dubai&eventId=316207747" target="_blank" role="button">Register</a>
-                </p>
-              </div>
-            </div>
+    <div class="aurora-caption">
+      One by Omniyat, Business Bay, Dubai &middot; Doors open 9:00 AM GST
+    </div>
 
-          </div>
-        </div>
+    <!-- Agenda command palette -->
+    <div class="palette">
+      <div class="palette-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <span class="palette-query">agenda 3 oct<span class="aurora-caret"></span></span>
+        <span class="palette-mode">Schedule</span>
       </div>
 
+      <ul class="palette-list">
+        <li>
+          <a class="palette-row active" href="#schedule">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <span class="palette-label">Registration<span class="palette-arg">24th floor</span></span>
+            <span class="kbd-chip">09:00</span>
+          </a>
+        </li>
+        <li>
+          <a class="palette-row" href="#schedule">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg>
+            <span class="palette-label">Keynotes<span class="palette-arg">Deriv &middot; SUDO &middot; Intuitive</span></span>
+            <span class="kbd-chip">10:00</span>
+          </a>
+        </li>
+        <li>
+          <a class="palette-row" href="#schedule">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <span class="palette-label">Sessions &amp; workshops<span class="palette-arg">3 rooms + workshop</span></span>
+            <span class="kbd-chip">11:30</span>
+          </a>
+        </li>
+        <li>
+          <a class="palette-row" href="#schedule">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg>
+            <span class="palette-label">Closing &amp; prize distribution<span class="palette-arg">Keynote room</span></span>
+            <span class="kbd-chip">16:30</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="palette-footer">
+        <span class="palette-countdown">
+          <span class="days">0</span>d <span class="hours">0</span>h <span class="minutes">0</span>m to go
+        </span>
+        <span class="palette-hints">&uarr;&darr; navigate &middot; enter open</span>
+      </div>
+    </div>
+
+    <a class="ghost-pill" href="#about">Learn more <span aria-hidden="true">&rarr;</span></a>
   </div>
+
+  <a class="sponsor-badge" href="https://deriv.com" target="_blank" rel="noopener noreferrer">
+    <img src="content/img/partners/deriv.webp" alt="Deriv" />
+    <span>
+      <small>Platinum sponsor</small>
+      <strong>Powered by Deriv</strong>
+    </span>
+  </a>
 
   <div id="typed-strings">
     <p>Serverless</p>
     <p>Cloud Architecture</p>
-    <p>IoT</p>
+    <p>Generative AI</p>
     <p>Machine Learning</p>
     <p>Big Data</p>
     <p>Microservices</p>
     <p>DevOps</p>
     <p>...</p>
   </div>
-
 </section>
 <!-- banner end-->
+
+<script>
+  function calculateTimeLeft() {
+    const targetDate = new Date('2026-10-03T09:00:00+04:00');
+    const timeDiff = Math.max(0, targetDate.getTime() - Date.now());
+    return {
+      days: Math.floor(timeDiff / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+      minutes: Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60))
+    };
+  }
+
+  function updateCounter() {
+    const remainingTime = calculateTimeLeft();
+    document.querySelector('.days').textContent = remainingTime.days;
+    document.querySelector('.hours').textContent = remainingTime.hours;
+    document.querySelector('.minutes').textContent = remainingTime.minutes;
+  }
+
+  updateCounter();
+  setInterval(updateCounter, 1000);
+</script>
