@@ -1,0 +1,27 @@
+- speaker: Ashok Subbabhatta Gopalakrishna
+  title: "Trust No Bot: Securing AI Agent Workflows with Zero-Knowledge Proofs"
+  time: 11:30 AM - 12:15 PM
+  image:
+  linked-url:
+  scheduled-on: first-half
+
+- speaker: Syed Sheham Hassan
+  title: "From One Account to Hundreds: Automating AWS Landing Zones with Control Tower and AFT"
+  time: 12:30 PM - 1:15 PM
+  image:
+  linked-url:
+  scheduled-on: first-half
+
+- speaker: Nicolas David
+  title: "Specs before code: field notes from a consulting team using Kiro"
+  time: 2:30 PM - 3:15 PM
+  image:
+  linked-url:
+  scheduled-on: second-half
+
+- speaker: Saurabh Bhattacharya
+  title: "Built to Adapt: Upskilling for an age that won't sit still"
+  time: 3:30 PM - 4:15 PM
+  image:
+  linked-url:
+  scheduled-on: second-half
