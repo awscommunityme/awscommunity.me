@@ -1,27 +1,27 @@
 - speaker: Ashwin T
   title: Your robots are lying to you - and your observability stack is helping
   time: 11:30 AM - 12:15 PM
-  image:
+  image: /content/img/speakers26/ashwin.jpg
   linked-url:
   scheduled-on: first-half
 
 - speaker: Syed Haider Ali
   title: "From DICOM to Diagnosis: Building a Medical Imaging AI Pipeline on AWS"
   time: 12:30 PM - 1:15 PM
-  image:
+  image: /content/img/speakers26/syed-haider-ali.jpg
   linked-url:
   scheduled-on: first-half
 
 - speaker: Noman Sadiq
   title: "Build Fast, Spend Smart: Hands-On with AWS FinOps & DevOps Agents"
   time: 2:30 PM - 3:15 PM
-  image:
+  image: /content/img/speakers26/noman-sadiq.jpg
   linked-url:
   scheduled-on: second-half
 
 - speaker: Isham Rashik
   title: "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: From Concepts to Practice"
   time: 3:30 PM - 4:15 PM
-  image:
+  image: /content/img/speakers26/isham-rashik.jpg
   linked-url:
   scheduled-on: second-half

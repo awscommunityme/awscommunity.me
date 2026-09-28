@@ -1,6 +1,9 @@
 - speaker: Anitha Senthilnathan & Logeswaran V
   title: "Build a Governed Agent on AWS: MCP, Bedrock, and the Permission Boundary That Actually Holds"
   time: 11:30 AM - 1:15 PM
+  images:
+    - /content/img/speakers26/anitha-senthilnathan.jpg
+    - /content/img/speakers26/logeswaran-vinayagam.jpg
   card-css-class: wrkshpCard
   linked-url:
   scheduled-on: first-half
@@ -8,6 +11,9 @@
 - speaker: Mohammed Fazalullah Qudrath & Nikhil Kapila
   title: So you want to be an FDE?!
   time: 2:30 PM - 4:15 PM
+  images:
+    - /content/img/speakers26/mohammed-fazalullah-qudrath.jpg
+    - /content/img/speakers26/nikhil.jpg
   card-css-class: wrkshpCard
   linked-url:
   scheduled-on: second-half
