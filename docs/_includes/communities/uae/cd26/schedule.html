@@ -223,6 +223,13 @@
       height: 100%;
     }
 
+    .workshop-avatars {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
     .schdule-col-title {
       font-size: 1.25rem;
       color: #2d3748;
@@ -518,6 +525,13 @@
               {% if talk.scheduled-on == half %}
               <div class="card {{talk.card-css-class}}">
                 <div class="card-body">
+                  {% if talk.images %}
+                  <div class="workshop-avatars">
+                    {% for img in talk.images %}
+                    <img src="{{ img }}" alt="{{ talk.speaker }}" class="speaker-avatar" onerror="handleImageError(this, '{{ talk.speaker }}')">
+                    {% endfor %}
+                  </div>
+                  {% endif %}
                   <h5 class="card-title schedule-slot-title">{{talk.title}}</h5>
                   <p class="card-text">
                     By {{talk.speaker}}<br />
