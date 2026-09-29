@@ -8,20 +8,20 @@
   time: 10:00 - 10:20 am
   image: AWSNEW.png
 
-- speaker: Deriv
+- speaker: Rajesh TV, Deriv
   title: Deriv Keynote
   time: 10:20 - 10:35 am
-  image: AWSNEW.png
+  image: /content/img/speakers26/rajesh-tv.jpg
 
-- speaker: SUDO
+- speaker: Hameedullah Khan, SUDO
   title: SUDO Keynote
   time: 10:35 - 10:45 am
-  image: AWSNEW.png
+  image: /content/img/speakers26/hameedullah-khan.jpg
 
-- speaker: Intuitive Cloud
+- speaker: Nicolas David, Intuitive Cloud
   title: Intuitive Cloud Keynote
   time: 10:45 - 10:55 am
-  image: AWSNEW.png
+  image: /content/img/speakers26/nicolas-david.jpg
 
 - speaker:
   title: Tea Break

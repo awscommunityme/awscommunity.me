@@ -79,7 +79,11 @@
         <div class="agenda-item">
           <div class="agenda-time">{{talk.time}} GST</div>
           <div class="agenda-image">
+            {% if talk.image contains '/' %}
+            <img src="{{talk.image}}" alt="{{talk.speaker}}" class="agenda-photo" onerror="this.src='/favicon.ico'">
+            {% else %}
             <img src="/content/img/speakers/{{talk.image}}" alt="{{talk.title}}" onerror="this.src='/favicon.ico'">
+            {% endif %}
           </div>
           <div class="agenda-content">
             <h3 class="agenda-title">{{talk.title}}</h3>
